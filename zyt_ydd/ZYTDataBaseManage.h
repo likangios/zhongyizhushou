@@ -13,9 +13,15 @@
 @interface ZYTDataBaseManage : NSObject
 
 + (instancetype)sharedDataBaseManage;
+
 - (BOOL)updateItemCount:(ZYTItemCountModel *)model;
 - (BOOL)updateItemList:(ZYTItemListModel *)model;
+
 - (NSArray *)getAllItemCountModel;
+- (ZYTItemCountModel *)getItemCountModelWithParentId:(NSString *)parentid;
+
+- (ZYTItemListModel *)getItemListModelWithTitleId:(NSString *)titleId;
+
 - (NSArray *)getAllItemListModelWithParentid:(NSString *)parentid;
 - (NSInteger)getNumberOfUnlockItemListModelWithParentid:(NSString *)parentid;
 @end

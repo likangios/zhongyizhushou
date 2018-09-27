@@ -11,6 +11,7 @@ pod 'Masonry'
 pod 'SDCycleScrollView'
 pod 'FMDB'
 pod 'JQFMDB'
+pod 'ReactiveObjC', '~> 2.1.2'
 pod 'SDWebImage' ,"3.8.2"
 pod 'TZImagePickerController'
 pod 'IQKeyboardManager'

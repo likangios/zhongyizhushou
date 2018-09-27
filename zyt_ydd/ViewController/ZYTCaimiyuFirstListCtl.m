@@ -23,13 +23,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setNavBarTitle:@"猜谜语"];
-    self.dataArray  =[[ZYTDataBaseManage sharedDataBaseManage] getAllItemCountModel];
     [self.view addSubview:self.collectionView];
     [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.customNavBar.mas_bottom);
         make.left.right.bottom.mas_equalTo(0);
     }];
 
+}
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    self.dataArray  =[[ZYTDataBaseManage sharedDataBaseManage] getAllItemCountModel];
+    [self.collectionView reloadData];
 }
 - (UICollectionView *)collectionView{
     if (!_collectionView) {
@@ -42,8 +46,9 @@
         _collectionView =[[UICollectionView alloc]initWithFrame:CGRectZero collectionViewLayout:layout];
         [_collectionView registerClass:[CaiMiYuListCell class] forCellWithReuseIdentifier:@"CaiMiYuListCell"];
         _collectionView.delegate = self;
-        _collectionView.contentInset = UIEdgeInsetsMake(5, 0, 5, 0);
+        _collectionView.contentInset = UIEdgeInsetsMake(0, 0, 5, 0);
         _collectionView.dataSource = self;
+        _collectionView.backgroundColor = [UIColor colorWithHexString:@"ededed"];
     }
     return _collectionView;
 }

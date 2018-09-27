@@ -21,6 +21,7 @@
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
+        self.contentView.backgroundColor = [UIColor whiteColor];
         [self.contentView addSubview:self.bgView];
         [self.bgView addSubview:self.guanka];
         [self.bgView addSubview:self.guankaDet];
@@ -64,7 +65,7 @@
     if (!_guanka) {
         _guanka = [UILabel new];
         _guanka.font = [UIFont systemFontOfSize:14];
-        _guanka.textColor = [UIColor colorWithHexString:@"ffffff"];
+        _guanka.textColor = [UIColor colorWithHexString:@"333333"];
         _guanka.textAlignment = NSTextAlignmentCenter;
     }
     return _guanka;
@@ -73,7 +74,7 @@
     if (!_guankaDet) {
         _guankaDet = [UILabel new];
         _guankaDet.font = [UIFont systemFontOfSize:14];
-        _guankaDet.textColor = [UIColor colorWithHexString:@"ffffff"];
+        _guankaDet.textColor = [UIColor colorWithHexString:@"333333"];
         _guankaDet.textAlignment = NSTextAlignmentCenter;
     }
     return _guankaDet;

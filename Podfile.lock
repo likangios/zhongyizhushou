@@ -39,6 +39,7 @@ PODS:
   - Masonry (1.1.0)
   - MJExtension (3.0.15.1)
   - MJRefresh (3.1.15.7)
+  - ReactiveObjC (2.1.2)
   - SDCycleScrollView (1.65):
     - SDWebImage (~> 3.7)
   - SDWebImage (3.8.2):
@@ -58,6 +59,7 @@ DEPENDENCIES:
   - Masonry
   - MJExtension
   - MJRefresh
+  - ReactiveObjC (~> 2.1.2)
   - SDCycleScrollView
   - SDWebImage (= 3.8.2)
   - SVProgressHUD
@@ -75,6 +77,7 @@ SPEC REPOS:
     - Masonry
     - MJExtension
     - MJRefresh
+    - ReactiveObjC
     - SDCycleScrollView
     - SDWebImage
     - SVProgressHUD
@@ -91,12 +94,13 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 19bc33ce2eee2d319760f5622562cf581a6ff756
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  ReactiveObjC: 7b6782ae39f9ac0f57205c3b0c0b69b9dd7048c0
   SDCycleScrollView: f72904c77698a7f93a41bcbbc2d78b073bf7326c
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   TZImagePickerController: 36709d0aca34ada54bceba2ab339f18e1859d73a
   ZYCornerRadius: f0af817be7805b5c63d793042ca7a03f81e14069
 
-PODFILE CHECKSUM: 6378192ddfa6708107139214376737af4e4df7f1
+PODFILE CHECKSUM: 468e6a2a7b83f5a43030c595bdc36306c49f7686
 
 COCOAPODS: 1.5.3

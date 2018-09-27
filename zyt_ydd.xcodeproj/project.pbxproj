@@ -42,6 +42,28 @@
 		7916E4EF21524B92000F2BD2 /* ZYTCaimiyuSecondListCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7916E4EE21524B92000F2BD2 /* ZYTCaimiyuSecondListCtl.m */; };
 		7916E4F2215339AD000F2BD2 /* ZYTItemCountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7916E4F1215339AD000F2BD2 /* ZYTItemCountModel.m */; };
 		7916E4F521533AFB000F2BD2 /* ZYTItemListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7916E4F421533AFB000F2BD2 /* ZYTItemListModel.m */; };
+		79A46F0D215CD25B00A8A140 /* ZYTAcupointDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A46F0C215CD25B00A8A140 /* ZYTAcupointDataManager.m */; };
+		79A46F10215CD65A00A8A140 /* AcupointListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A46F0F215CD65A00A8A140 /* AcupointListModel.m */; };
+		79A46F13215CD66700A8A140 /* AcupointDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A46F12215CD66700A8A140 /* AcupointDetailModel.m */; };
+		79A46F16215CDA0100A8A140 /* XueWeiTuListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A46F15215CDA0100A8A140 /* XueWeiTuListViewController.m */; };
+		79A46F19215CDAED00A8A140 /* XueWeiTuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A46F18215CDAED00A8A140 /* XueWeiTuDetailViewController.m */; };
+		79A46F1B215CDBF200A8A140 /* acupuncture.db in Resources */ = {isa = PBXBuildFile; fileRef = 79A46F1A215CDBF100A8A140 /* acupuncture.db */; };
+		79F38544215A38EF00A7C7EC /* ZYTCaimiyuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F38543215A38EF00A7C7EC /* ZYTCaimiyuDetailViewController.m */; };
+		79F38547215A398A00A7C7EC /* ZYTAnswerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F38546215A398A00A7C7EC /* ZYTAnswerView.m */; };
+		79F3854A215A399A00A7C7EC /* ZYTOptionsAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F38549215A399A00A7C7EC /* ZYTOptionsAnswer.m */; };
+		79F3854D215A3C1B00A7C7EC /* ZYTAnswerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F3854C215A3C1B00A7C7EC /* ZYTAnswerModel.m */; };
+		79F38550215B302100A7C7EC /* AnswerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F3854F215B302100A7C7EC /* AnswerCell.m */; };
+		79F38553215B8FF700A7C7EC /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F38552215B8FF700A7C7EC /* BookCell.m */; };
+		79F38556215C6ADA00A7C7EC /* BookListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F38555215C6ADA00A7C7EC /* BookListModel.m */; };
+		79F38559215C6FCA00A7C7EC /* BookListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F38558215C6FCA00A7C7EC /* BookListTableViewController.m */; };
+		79F3855C215C723F00A7C7EC /* BookContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F3855B215C723F00A7C7EC /* BookContentViewController.m */; };
+		79F3855F215C76D900A7C7EC /* BookContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F3855E215C76D900A7C7EC /* BookContentModel.m */; };
+		79F38562215C76F700A7C7EC /* BookMuLuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F38561215C76F700A7C7EC /* BookMuLuModel.m */; };
+		79F38565215C788C00A7C7EC /* BookBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F38564215C788C00A7C7EC /* BookBaseModel.m */; };
+		79F38568215C78E400A7C7EC /* ZYTHardbyBookDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F38567215C78E400A7C7EC /* ZYTHardbyBookDataManager.m */; };
+		79F3856A215C79C800A7C7EC /* hardbybook.db in Resources */ = {isa = PBXBuildFile; fileRef = 79F38569215C79C800A7C7EC /* hardbybook.db */; };
+		79F3856D215CB1E800A7C7EC /* ZYTNewBookDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F3856C215CB1E800A7C7EC /* ZYTNewBookDataManager.m */; };
+		79F3856F215CB63300A7C7EC /* newbook.db in Resources */ = {isa = PBXBuildFile; fileRef = 79F3856E215CB63300A7C7EC /* newbook.db */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -113,6 +135,47 @@
 		7916E4F1215339AD000F2BD2 /* ZYTItemCountModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTItemCountModel.m; sourceTree = "<group>"; };
 		7916E4F321533AFB000F2BD2 /* ZYTItemListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTItemListModel.h; sourceTree = "<group>"; };
 		7916E4F421533AFB000F2BD2 /* ZYTItemListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTItemListModel.m; sourceTree = "<group>"; };
+		79A46F0B215CD25B00A8A140 /* ZYTAcupointDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTAcupointDataManager.h; sourceTree = "<group>"; };
+		79A46F0C215CD25B00A8A140 /* ZYTAcupointDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTAcupointDataManager.m; sourceTree = "<group>"; };
+		79A46F0E215CD65900A8A140 /* AcupointListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcupointListModel.h; sourceTree = "<group>"; };
+		79A46F0F215CD65A00A8A140 /* AcupointListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcupointListModel.m; sourceTree = "<group>"; };
+		79A46F11215CD66700A8A140 /* AcupointDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcupointDetailModel.h; sourceTree = "<group>"; };
+		79A46F12215CD66700A8A140 /* AcupointDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AcupointDetailModel.m; sourceTree = "<group>"; };
+		79A46F14215CDA0100A8A140 /* XueWeiTuListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XueWeiTuListViewController.h; sourceTree = "<group>"; };
+		79A46F15215CDA0100A8A140 /* XueWeiTuListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XueWeiTuListViewController.m; sourceTree = "<group>"; };
+		79A46F17215CDAED00A8A140 /* XueWeiTuDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XueWeiTuDetailViewController.h; sourceTree = "<group>"; };
+		79A46F18215CDAED00A8A140 /* XueWeiTuDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XueWeiTuDetailViewController.m; sourceTree = "<group>"; };
+		79A46F1A215CDBF100A8A140 /* acupuncture.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = acupuncture.db; sourceTree = "<group>"; };
+		79F38542215A38EF00A7C7EC /* ZYTCaimiyuDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTCaimiyuDetailViewController.h; sourceTree = "<group>"; };
+		79F38543215A38EF00A7C7EC /* ZYTCaimiyuDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTCaimiyuDetailViewController.m; sourceTree = "<group>"; };
+		79F38545215A398A00A7C7EC /* ZYTAnswerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTAnswerView.h; sourceTree = "<group>"; };
+		79F38546215A398A00A7C7EC /* ZYTAnswerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTAnswerView.m; sourceTree = "<group>"; };
+		79F38548215A399A00A7C7EC /* ZYTOptionsAnswer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTOptionsAnswer.h; sourceTree = "<group>"; };
+		79F38549215A399A00A7C7EC /* ZYTOptionsAnswer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTOptionsAnswer.m; sourceTree = "<group>"; };
+		79F3854B215A3C1B00A7C7EC /* ZYTAnswerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTAnswerModel.h; sourceTree = "<group>"; };
+		79F3854C215A3C1B00A7C7EC /* ZYTAnswerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTAnswerModel.m; sourceTree = "<group>"; };
+		79F3854E215B302100A7C7EC /* AnswerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnswerCell.h; sourceTree = "<group>"; };
+		79F3854F215B302100A7C7EC /* AnswerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnswerCell.m; sourceTree = "<group>"; };
+		79F38551215B8FF700A7C7EC /* BookCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookCell.h; sourceTree = "<group>"; };
+		79F38552215B8FF700A7C7EC /* BookCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookCell.m; sourceTree = "<group>"; };
+		79F38554215C6ADA00A7C7EC /* BookListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookListModel.h; sourceTree = "<group>"; };
+		79F38555215C6ADA00A7C7EC /* BookListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookListModel.m; sourceTree = "<group>"; };
+		79F38557215C6FCA00A7C7EC /* BookListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookListTableViewController.h; sourceTree = "<group>"; };
+		79F38558215C6FCA00A7C7EC /* BookListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookListTableViewController.m; sourceTree = "<group>"; };
+		79F3855A215C723F00A7C7EC /* BookContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookContentViewController.h; sourceTree = "<group>"; };
+		79F3855B215C723F00A7C7EC /* BookContentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookContentViewController.m; sourceTree = "<group>"; };
+		79F3855D215C76D800A7C7EC /* BookContentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookContentModel.h; sourceTree = "<group>"; };
+		79F3855E215C76D900A7C7EC /* BookContentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookContentModel.m; sourceTree = "<group>"; };
+		79F38560215C76F700A7C7EC /* BookMuLuModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookMuLuModel.h; sourceTree = "<group>"; };
+		79F38561215C76F700A7C7EC /* BookMuLuModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookMuLuModel.m; sourceTree = "<group>"; };
+		79F38563215C788C00A7C7EC /* BookBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookBaseModel.h; sourceTree = "<group>"; };
+		79F38564215C788C00A7C7EC /* BookBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookBaseModel.m; sourceTree = "<group>"; };
+		79F38566215C78E400A7C7EC /* ZYTHardbyBookDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTHardbyBookDataManager.h; sourceTree = "<group>"; };
+		79F38567215C78E400A7C7EC /* ZYTHardbyBookDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTHardbyBookDataManager.m; sourceTree = "<group>"; };
+		79F38569215C79C800A7C7EC /* hardbybook.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = hardbybook.db; sourceTree = "<group>"; };
+		79F3856B215CB1E800A7C7EC /* ZYTNewBookDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZYTNewBookDataManager.h; sourceTree = "<group>"; };
+		79F3856C215CB1E800A7C7EC /* ZYTNewBookDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYTNewBookDataManager.m; sourceTree = "<group>"; };
+		79F3856E215CB63300A7C7EC /* newbook.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = newbook.db; sourceTree = "<group>"; };
 		9A5E08C9F927136A915DD549 /* Pods-zyt_ydd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zyt_ydd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zyt_ydd/Pods-zyt_ydd.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -227,10 +290,20 @@
 				7916E4CA2151FAD3000F2BD2 /* ZYTCaimiyuFirstListCtl.m */,
 				7916E4ED21524B92000F2BD2 /* ZYTCaimiyuSecondListCtl.h */,
 				7916E4EE21524B92000F2BD2 /* ZYTCaimiyuSecondListCtl.m */,
+				79F38542215A38EF00A7C7EC /* ZYTCaimiyuDetailViewController.h */,
+				79F38543215A38EF00A7C7EC /* ZYTCaimiyuDetailViewController.m */,
 				7916E4CC2151FB78000F2BD2 /* ZYTBooksHomePageCtl.h */,
 				7916E4CD2151FB78000F2BD2 /* ZYTBooksHomePageCtl.m */,
+				79F38557215C6FCA00A7C7EC /* BookListTableViewController.h */,
+				79F38558215C6FCA00A7C7EC /* BookListTableViewController.m */,
+				79F3855A215C723F00A7C7EC /* BookContentViewController.h */,
+				79F3855B215C723F00A7C7EC /* BookContentViewController.m */,
 				7916E4CF2151FB82000F2BD2 /* ZYTXueweituFirstCtl.h */,
 				7916E4D02151FB82000F2BD2 /* ZYTXueweituFirstCtl.m */,
+				79A46F14215CDA0100A8A140 /* XueWeiTuListViewController.h */,
+				79A46F15215CDA0100A8A140 /* XueWeiTuListViewController.m */,
+				79A46F17215CDAED00A8A140 /* XueWeiTuDetailViewController.h */,
+				79A46F18215CDAED00A8A140 /* XueWeiTuDetailViewController.m */,
 				7916E4D22151FB96000F2BD2 /* ZYTMineCtl.h */,
 				7916E4D32151FB96000F2BD2 /* ZYTMineCtl.m */,
 			);
@@ -244,6 +317,18 @@
 				7916E4F1215339AD000F2BD2 /* ZYTItemCountModel.m */,
 				7916E4F321533AFB000F2BD2 /* ZYTItemListModel.h */,
 				7916E4F421533AFB000F2BD2 /* ZYTItemListModel.m */,
+				79F38554215C6ADA00A7C7EC /* BookListModel.h */,
+				79F38555215C6ADA00A7C7EC /* BookListModel.m */,
+				79F38563215C788C00A7C7EC /* BookBaseModel.h */,
+				79F38564215C788C00A7C7EC /* BookBaseModel.m */,
+				79F38560215C76F700A7C7EC /* BookMuLuModel.h */,
+				79F38561215C76F700A7C7EC /* BookMuLuModel.m */,
+				79F3855D215C76D800A7C7EC /* BookContentModel.h */,
+				79F3855E215C76D900A7C7EC /* BookContentModel.m */,
+				79A46F0E215CD65900A8A140 /* AcupointListModel.h */,
+				79A46F0F215CD65A00A8A140 /* AcupointListModel.m */,
+				79A46F11215CD66700A8A140 /* AcupointDetailModel.h */,
+				79A46F12215CD66700A8A140 /* AcupointDetailModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -253,6 +338,12 @@
 			children = (
 				7916E4DA21522458000F2BD2 /* ZYTDataBaseManage.h */,
 				7916E4DB21522458000F2BD2 /* ZYTDataBaseManage.m */,
+				79F38566215C78E400A7C7EC /* ZYTHardbyBookDataManager.h */,
+				79F38567215C78E400A7C7EC /* ZYTHardbyBookDataManager.m */,
+				79F3856B215CB1E800A7C7EC /* ZYTNewBookDataManager.h */,
+				79F3856C215CB1E800A7C7EC /* ZYTNewBookDataManager.m */,
+				79A46F0B215CD25B00A8A140 /* ZYTAcupointDataManager.h */,
+				79A46F0C215CD25B00A8A140 /* ZYTAcupointDataManager.m */,
 			);
 			name = Manager;
 			sourceTree = "<group>";
@@ -260,6 +351,9 @@
 		7916E4DD21522D23000F2BD2 /* dbfile */ = {
 			isa = PBXGroup;
 			children = (
+				79A46F1A215CDBF100A8A140 /* acupuncture.db */,
+				79F3856E215CB63300A7C7EC /* newbook.db */,
+				79F38569215C79C800A7C7EC /* hardbybook.db */,
 				7916E4DE21522F0C000F2BD2 /* riddles.db */,
 			);
 			path = dbfile;
@@ -270,6 +364,16 @@
 			children = (
 				7916E4E1215234DC000F2BD2 /* CaiMiYuListCell.h */,
 				7916E4E2215234DC000F2BD2 /* CaiMiYuListCell.m */,
+				79F3854B215A3C1B00A7C7EC /* ZYTAnswerModel.h */,
+				79F3854C215A3C1B00A7C7EC /* ZYTAnswerModel.m */,
+				79F38545215A398A00A7C7EC /* ZYTAnswerView.h */,
+				79F38546215A398A00A7C7EC /* ZYTAnswerView.m */,
+				79F38548215A399A00A7C7EC /* ZYTOptionsAnswer.h */,
+				79F38549215A399A00A7C7EC /* ZYTOptionsAnswer.m */,
+				79F3854E215B302100A7C7EC /* AnswerCell.h */,
+				79F3854F215B302100A7C7EC /* AnswerCell.m */,
+				79F38551215B8FF700A7C7EC /* BookCell.h */,
+				79F38552215B8FF700A7C7EC /* BookCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -353,8 +457,11 @@
 			files = (
 				7916E4852151EE52000F2BD2 /* LaunchScreen.storyboard in Resources */,
 				7916E4DF21522F0C000F2BD2 /* riddles.db in Resources */,
+				79A46F1B215CDBF200A8A140 /* acupuncture.db in Resources */,
 				7916E4822151EE52000F2BD2 /* Assets.xcassets in Resources */,
+				79F3856F215CB63300A7C7EC /* newbook.db in Resources */,
 				7916E4802151EE50000F2BD2 /* Main.storyboard in Resources */,
+				79F3856A215C79C800A7C7EC /* hardbybook.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,26 +520,45 @@
 				7916E4D12151FB82000F2BD2 /* ZYTXueweituFirstCtl.m in Sources */,
 				7916E47D2151EE50000F2BD2 /* ViewController.m in Sources */,
 				7916E4D42151FB96000F2BD2 /* ZYTMineCtl.m in Sources */,
+				79A46F16215CDA0100A8A140 /* XueWeiTuListViewController.m in Sources */,
 				7916E4B52151F528000F2BD2 /* UIView+Common.m in Sources */,
 				7916E4CB2151FAD3000F2BD2 /* ZYTCaimiyuFirstListCtl.m in Sources */,
 				7916E4BA2151F528000F2BD2 /* NSURL+DCHook.m in Sources */,
+				79A46F0D215CD25B00A8A140 /* ZYTAcupointDataManager.m in Sources */,
 				7916E4942151F4E4000F2BD2 /* DCBaseSetViewController.m in Sources */,
+				79F3856D215CB1E800A7C7EC /* ZYTNewBookDataManager.m in Sources */,
+				79F38550215B302100A7C7EC /* AnswerCell.m in Sources */,
+				79A46F19215CDAED00A8A140 /* XueWeiTuDetailViewController.m in Sources */,
+				79F38568215C78E400A7C7EC /* ZYTHardbyBookDataManager.m in Sources */,
+				79F38553215B8FF700A7C7EC /* BookCell.m in Sources */,
 				7916E4BE2151F528000F2BD2 /* UILabel+Common.m in Sources */,
 				7916E4B22151F528000F2BD2 /* NSObject+DCNull.m in Sources */,
 				7916E4B92151F528000F2BD2 /* UIImage+DCCircle.m in Sources */,
 				7916E4BB2151F528000F2BD2 /* UIColor+DCColorChange.m in Sources */,
+				79F3855C215C723F00A7C7EC /* BookContentViewController.m in Sources */,
+				79F3854D215A3C1B00A7C7EC /* ZYTAnswerModel.m in Sources */,
 				7916E4B42151F528000F2BD2 /* UIView+Frame.m in Sources */,
 				7916E4E3215234DC000F2BD2 /* CaiMiYuListCell.m in Sources */,
+				79F38559215C6FCA00A7C7EC /* BookListTableViewController.m in Sources */,
 				7916E4B82151F528000F2BD2 /* UIBarButtonItem+DCBarButtonItem.m in Sources */,
 				7916E4BC2151F528000F2BD2 /* UIColor+expanded.m in Sources */,
 				7916E4962151F4E4000F2BD2 /* DCTabBarController.m in Sources */,
+				79F3854A215A399A00A7C7EC /* ZYTOptionsAnswer.m in Sources */,
+				79F3855F215C76D900A7C7EC /* BookContentModel.m in Sources */,
 				7916E4B32151F528000F2BD2 /* UILabel+DCLabel.m in Sources */,
 				7916E4CE2151FB78000F2BD2 /* ZYTBooksHomePageCtl.m in Sources */,
+				79F38562215C76F700A7C7EC /* BookMuLuModel.m in Sources */,
+				79A46F10215CD65A00A8A140 /* AcupointListModel.m in Sources */,
 				7916E4F2215339AD000F2BD2 /* ZYTItemCountModel.m in Sources */,
+				79F38547215A398A00A7C7EC /* ZYTAnswerView.m in Sources */,
 				7916E4C62151F7D4000F2BD2 /* GQGesVCTransition.m in Sources */,
+				79A46F13215CD66700A8A140 /* AcupointDetailModel.m in Sources */,
 				7916E4882151EE52000F2BD2 /* main.m in Sources */,
+				79F38556215C6ADA00A7C7EC /* BookListModel.m in Sources */,
 				7916E4952151F4E4000F2BD2 /* DCNavigationController.m in Sources */,
+				79F38544215A38EF00A7C7EC /* ZYTCaimiyuDetailViewController.m in Sources */,
 				7916E4DC21522458000F2BD2 /* ZYTDataBaseManage.m in Sources */,
+				79F38565215C788C00A7C7EC /* BookBaseModel.m in Sources */,
 				7916E4B62151F528000F2BD2 /* UIView+DCExtension.m in Sources */,
 				7916E47A2151EE50000F2BD2 /* AppDelegate.m in Sources */,
 				7916E4BD2151F528000F2BD2 /* UIImage+Common.m in Sources */,

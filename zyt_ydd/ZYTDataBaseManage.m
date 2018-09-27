@@ -54,6 +54,28 @@ static ZYTDataBaseManage *manager;
     }];
     return resultArray;
 }
+- (ZYTItemCountModel *)getItemCountModelWithParentId:(NSString *)parentid{
+    __block NSArray *resultArray = [NSArray array];
+    NSString *splString = [NSString stringWithFormat:@"where parentid = '%@'",parentid];
+    [self.fmdb jq_inDatabase:^{
+        resultArray = [self.fmdb jq_lookupTable:@"itemcount" dicOrModel:[ZYTItemCountModel class] whereFormat:splString];
+    }];
+    if (resultArray.count) {
+        return resultArray[0];
+    }
+    return nil;
+}
+- (ZYTItemListModel *)getItemListModelWithTitleId:(NSString *)titleId{
+    __block NSArray *resultArray = [NSArray array];
+    NSString *splString = [NSString stringWithFormat:@"where titleid = '%@'",titleId];
+    [self.fmdb jq_inDatabase:^{
+        resultArray = [self.fmdb jq_lookupTable:@"itemlist" dicOrModel:[ZYTItemListModel class] whereFormat:splString];
+    }];
+    if (resultArray.count) {
+        return resultArray[0];
+    }
+    return nil;
+}
 - (BOOL)updateItemCount:(ZYTItemCountModel *)model{
     __block BOOL success = NO;
     NSString *splString = [NSString stringWithFormat:@"where parentid = '%@'",model.parentid];
