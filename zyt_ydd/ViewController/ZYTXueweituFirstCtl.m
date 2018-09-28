@@ -22,7 +22,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self addDefaultBackItem];
     [self setNavBarTitle:@"穴位图"];
     self.dataArray = [[ZYTAcupointDataManager sharedDataBaseManage] acumainData];
     [self.view addSubview:self.tableView];

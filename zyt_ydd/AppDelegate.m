@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "DCTabBarController.h"
 #import <AVOSCloud/AVOSCloud.h>
+#import <AdSupport/AdSupport.h>
 @interface AppDelegate ()
 
 @end
@@ -22,12 +23,50 @@
     [self setUpRootVC]; //跟控制器判断
     [self.window makeKeyAndVisible];
     [self setUpFixiOS11]; //适配IOS 11
-    [AVOSCloud setApplicationId:@"heeBFMkVulCI6GmtpRwN5Uaw-gzGzoHsz" clientKey:@"Oq6J0kIvuTEcmthAtaGaORFE"];
+    [AVOSCloud setApplicationId:@"d9M5CcW86UbMuJO6BY07W4RU-gzGzoHsz" clientKey:@"GHSBf89FQ6hYVGSBBa4pSxx7"];
     [SVProgressHUD setMinimumDismissTimeInterval:1];
-
+    NSString *udid = [ASIdentifierManager sharedManager].advertisingIdentifier.UUIDString;
+    [self loginWithName:udid pwd:@"123456"];
     return YES;
 }
-
+- (void)loginWithName:(NSString *)name pwd:(NSString *)pwd
+{
+    NSError *error;
+    [AVUser logInWithUsername:name password:pwd error:&error];
+    if (error) {
+        NSLog(@"========login error is %@",error.description);
+        if (error.code == 211) {
+            AVUser *user = [[AVUser alloc]init];
+            user.username = name;
+            user.password = @"123456";
+            [user signUp:&error];
+            NSLog(@"========signUp error is %@",error.description);
+            if (error) {
+//                注册失败 稍后再试
+                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                    [self loginWithName:name pwd:pwd];
+                });
+            }
+            else{
+//                注册成功马上登录
+                [self loginWithName:name pwd:pwd];
+            }
+        }
+        else{
+            //登录失败 稍后再试
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                [self loginWithName:name pwd:pwd];
+            });
+        }
+    }
+    else{
+//        登录成功
+        NSString *nickName = [[UIDevice currentDevice] name];
+        [[AVUser currentUser] setObject:nickName forKey:@"nickName"];
+        [[AVUser currentUser] save];
+        NSLog(@"========登录 成功 ！！！");
+    }
+}
 #pragma mark - 根控制器
 - (void)setUpRootVC
 {

@@ -88,7 +88,19 @@ static ZYTNewBookDataManager *manager;
         resultArray = [self.fmdb jq_lookupTable:[self getTableNameWithType:type] dicOrModel:[BookContentModel class] whereFormat:splString];
     }];
     
-    return resultArray;
+    NSMutableArray *array = [NSMutableArray array];
+    [resultArray enumerateObjectsUsingBlock:^(BookContentModel *obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if (obj.following.integerValue > 0) {
+            BookMuLuModel *model = [[BookMuLuModel alloc]init];
+            model.title = obj.title;
+            model.subModel = [self newBookDataSubItemData:obj.uuid WithType:type];
+            [array addObject:model];
+        }
+        else{
+            [array addObject:obj];
+        }
+    }];
+    return array;
 }
 #pragma mark - 金匮要略
 - (NSArray <BookBaseModel *>*)goldenchamberData{

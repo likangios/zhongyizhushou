@@ -16,6 +16,9 @@
 
 @property(nonatomic,strong) UILabel *questionLabel;
 
+@property(nonatomic,strong) UILabel *coinLabel;
+
+
 @property(nonatomic,strong) ZYTAnswerView *answerView;
 
 @property(nonatomic,strong) ZYTOptionsAnswer *optionsAnswer;
@@ -26,6 +29,8 @@
 
 @property(nonatomic,strong) UIButton *tipsButton;
 
+@property(nonatomic,assign) NSInteger coin;
+
 
 @end
 
@@ -33,9 +38,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    AVUser *user = [AVUser currentUser];
+    NSNumber *coin = [user objectForKey:@"coin"];
+    self.coin = coin.integerValue;
+    
     self.view.backgroundColor = [UIColor whiteColor];
     [self addDefaultBackItem];
     [self.view addSubview:self.qsTitleLabel];
+    [self.view addSubview:self.coinLabel];
     [self.view addSubview:self.questionLabel];
     [self.view addSubview:self.answerView];
     [self.view addSubview:self.optionsAnswer];
@@ -44,6 +54,11 @@
         make.centerX.equalTo(self.view);
         make.top.equalTo(self.customNavBar.mas_bottom).offset(30);
     }];
+    [self.coinLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerY.equalTo(self.qsTitleLabel);
+        make.right.mas_equalTo(-10);
+    }];
+    
     [self.questionLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.equalTo(self.view);
         make.left.mas_greaterThanOrEqualTo(10);
@@ -63,6 +78,13 @@
         make.right.mas_equalTo(-15);
         make.size.mas_equalTo(40);
         make.top.equalTo(self.qsTitleLabel.mas_bottom).offset(80);
+    }];
+    [RACObserve(self, coin) subscribeNext:^(NSNumber *x) {
+        AVUser *user = [AVUser currentUser];
+        [user setObject:x forKey:@"coin"];
+        [user save];
+        [user refresh];
+        self.coinLabel.text = [NSString stringWithFormat:@"我的金币：%d",x.integerValue];
     }];
     
     self.optionsAnswerString = [[NSMutableString alloc]init];
@@ -88,12 +110,7 @@
             self.currentModel.isunlock = @"1";
             [[ZYTDataBaseManage sharedDataBaseManage] updateItemList:self.currentModel];
         }
-//        if (self.currentModel.answertips.length) {
-//            self.tipsButton.hidden = NO;
-//        }
-//        else{
-//            self.tipsButton.hidden = YES;
-//        }
+
     }];
     [self.optionsAnswer.optionAnswerSignal subscribeNext:^(ZYTAnswerModel *x) {
         @strongify(self);
@@ -119,6 +136,7 @@
     [self.answerView.answerRightSignal subscribeNext:^(id  _Nullable x) {
         @strongify(self);
         if (self.index < self.dataArray.count - 1) {
+            self.coin ++;
             NSString *message = self.currentModel.answertips;
             [UIAlertView bk_showAlertViewWithTitle:@"答对了！" message:message cancelButtonTitle:nil otherButtonTitles:@[@"下一关"] handler:^(UIAlertView *alertView, NSInteger buttonIndex) {
                 self.index++;
@@ -145,9 +163,23 @@
 
     }];
     [[self.tipsButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
-        NSString *tips = self.currentModel.answertips.length?self.currentModel.answertips:@"本题没有提示";
-        [UIAlertView bk_showAlertViewWithTitle:@"提示" message:tips cancelButtonTitle:nil otherButtonTitles:@[@"OK"] handler:^(UIAlertView *alertView, NSInteger buttonIndex) {
+        
+        AVUser *user = [AVUser currentUser];
+        NSNumber *coin = [user objectForKey:@"coin"];
+        if (coin.integerValue < 5) {
+            [SVProgressHUD showInfoWithStatus:@"金币不够了"];
+            return ;
+        }
+        [UIAlertView bk_showAlertViewWithTitle:@"提示" message:@"使用5个金币查看提示？" cancelButtonTitle:@"不看了" otherButtonTitles:@[@"看"] handler:^(UIAlertView *alertView, NSInteger buttonIndex) {
+            if (buttonIndex == 1) {
+                self.coin -= 5;
+            NSString *tips = self.currentModel.answertips.length?self.currentModel.answertips:self.currentModel.answer;
+            [UIAlertView bk_showAlertViewWithTitle:@"提示" message:tips cancelButtonTitle:nil otherButtonTitles:@[@"OK"] handler:^(UIAlertView *alertView, NSInteger buttonIndex) {
+            }];
+            }
         }];
+        
+
     }];
 }
 
@@ -160,11 +192,20 @@
 - (UILabel *)qsTitleLabel{
     if (!_qsTitleLabel) {
         _qsTitleLabel = [UILabel new];
-        _qsTitleLabel.font = [UIFont boldSystemFontOfSize:15];
+        _qsTitleLabel.font = [UIFont boldSystemFontOfSize:16];
         _qsTitleLabel.textColor = [UIColor blackColor];
         _qsTitleLabel.textAlignment = NSTextAlignmentLeft;
     }
     return _qsTitleLabel;
+}
+- (UILabel *)coinLabel{
+    if (!_coinLabel) {
+        _coinLabel = [UILabel new];
+        _coinLabel.font = [UIFont systemFontOfSize:14];
+        _coinLabel.textColor = DCBGColor;
+        _coinLabel.textAlignment = NSTextAlignmentLeft;
+    }
+    return _coinLabel;
 }
 - (UILabel *)questionLabel{
     if (!_questionLabel) {
