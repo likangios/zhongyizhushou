@@ -20,7 +20,7 @@
 // Categories
 
 // Others
-#define navBarTitleFont 24
+#define navBarTitleFont 18
 #define navBarItemFont 15
 
 
