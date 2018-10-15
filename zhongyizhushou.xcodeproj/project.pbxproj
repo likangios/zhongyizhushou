@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7916E4C22151F6A7000F2BD2 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7916E4C12151F6A7000F2BD2 /* AVOSCloud.framework */; };
 		79872A5921744044009D0C02 /* ZYTDataBaseManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729DF21744044009D0C02 /* ZYTDataBaseManage.m */; };
 		79872A5A21744044009D0C02 /* ZYTHardbyBookDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729E021744044009D0C02 /* ZYTHardbyBookDataManager.m */; };
 		79872A5B21744044009D0C02 /* ZYTAcupointDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729E421744044009D0C02 /* ZYTAcupointDataManager.m */; };
@@ -69,16 +68,17 @@
 		79872A9321744044009D0C02 /* hardbybook.db in Resources */ = {isa = PBXBuildFile; fileRef = 79872A5721744044009D0C02 /* hardbybook.db */; };
 		79872A9421744044009D0C02 /* acupuncture.db in Resources */ = {isa = PBXBuildFile; fileRef = 79872A5821744044009D0C02 /* acupuncture.db */; };
 		79872A97217468C4009D0C02 /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = 79872A96217468C3009D0C02 /* Icon-167.png */; };
+		79872AA3217479E9009D0C02 /* ControlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872AA2217479E8009D0C02 /* ControlManager.m */; };
+		79872AAA21747DE4009D0C02 /* LUCKBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872AA621747DE4009D0C02 /* LUCKBottomView.m */; };
+		79872AAB21747DE4009D0C02 /* ZYTTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872AA921747DE4009D0C02 /* ZYTTestViewController.m */; };
+		79872AAE21747E26009D0C02 /* ZYTUserzhengceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872AAC21747E25009D0C02 /* ZYTUserzhengceViewController.m */; };
 		D97A4D70BB862CB3A2A338BF /* libPods-zhongyizhushou.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1CC6DBD87DD308BB0399AF /* libPods-zhongyizhushou.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1BE955B40D59B58572D0BEBA /* libPods-zyt_ydd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zyt_ydd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E729C3292F0E9FA8835A3D6 /* libPods-ydd_mj_zyt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ydd_mj_zyt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B1CC6DBD87DD308BB0399AF /* libPods-zhongyizhushou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zhongyizhushou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		564C465A4F4F045F34EA5801 /* Pods-zhongyizhushou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhongyizhushou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zhongyizhushou/Pods-zhongyizhushou.debug.xcconfig"; sourceTree = "<group>"; };
 		7916E4752151EE50000F2BD2 /* zhongyizhushou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhongyizhushou.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7916E4C12151F6A7000F2BD2 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
 		798729DF21744044009D0C02 /* ZYTDataBaseManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTDataBaseManage.m; sourceTree = "<group>"; };
 		798729E021744044009D0C02 /* ZYTHardbyBookDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTHardbyBookDataManager.m; sourceTree = "<group>"; };
 		798729E121744044009D0C02 /* DCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTabBarController.h; sourceTree = "<group>"; };
@@ -194,6 +194,14 @@
 		79872A5821744044009D0C02 /* acupuncture.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = acupuncture.db; sourceTree = "<group>"; };
 		79872A95217441A9009D0C02 /* zhongyizhushou.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = zhongyizhushou.entitlements; sourceTree = "<group>"; };
 		79872A96217468C3009D0C02 /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-167.png"; sourceTree = "<group>"; };
+		79872AA1217479E8009D0C02 /* ControlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlManager.h; sourceTree = "<group>"; };
+		79872AA2217479E8009D0C02 /* ControlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlManager.m; sourceTree = "<group>"; };
+		79872AA621747DE4009D0C02 /* LUCKBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUCKBottomView.m; sourceTree = "<group>"; };
+		79872AA721747DE4009D0C02 /* ZYTTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTTestViewController.h; sourceTree = "<group>"; };
+		79872AA821747DE4009D0C02 /* LUCKBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUCKBottomView.h; sourceTree = "<group>"; };
+		79872AA921747DE4009D0C02 /* ZYTTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTTestViewController.m; sourceTree = "<group>"; };
+		79872AAC21747E25009D0C02 /* ZYTUserzhengceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTUserzhengceViewController.m; sourceTree = "<group>"; };
+		79872AAD21747E26009D0C02 /* ZYTUserzhengceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTUserzhengceViewController.h; sourceTree = "<group>"; };
 		8B6D295C34FDCF6975847EBD /* Pods-zhongyizhushou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhongyizhushou.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhongyizhushou/Pods-zhongyizhushou.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -202,7 +210,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7916E4C22151F6A7000F2BD2 /* AVOSCloud.framework in Frameworks */,
 				D97A4D70BB862CB3A2A338BF /* libPods-zhongyizhushou.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +335,8 @@
 				79872A9B21746B63009D0C02 /* Base */,
 				79872A0721744044009D0C02 /* ViewController.m */,
 				79872A5221744044009D0C02 /* ViewController.h */,
+				79872AA1217479E8009D0C02 /* ControlManager.h */,
+				79872AA2217479E8009D0C02 /* ControlManager.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -404,6 +413,7 @@
 		79872A9B21746B63009D0C02 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				79872AA521747DE4009D0C02 /* web */,
 				798729E121744044009D0C02 /* DCTabBarController.h */,
 				79872A0D21744044009D0C02 /* DCTabBarController.m */,
 				79872A0821744044009D0C02 /* DCNavigationController.h */,
@@ -463,6 +473,19 @@
 			path = "New Group";
 			sourceTree = "<group>";
 		};
+		79872AA521747DE4009D0C02 /* web */ = {
+			isa = PBXGroup;
+			children = (
+				79872AA821747DE4009D0C02 /* LUCKBottomView.h */,
+				79872AA621747DE4009D0C02 /* LUCKBottomView.m */,
+				79872AA721747DE4009D0C02 /* ZYTTestViewController.h */,
+				79872AA921747DE4009D0C02 /* ZYTTestViewController.m */,
+				79872AAD21747E26009D0C02 /* ZYTUserzhengceViewController.h */,
+				79872AAC21747E25009D0C02 /* ZYTUserzhengceViewController.m */,
+			);
+			path = web;
+			sourceTree = "<group>";
+		};
 		AF2E354BBB73343C49252D74 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -475,9 +498,6 @@
 		B502B77DA2008B96C760CD0E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7916E4C12151F6A7000F2BD2 /* AVOSCloud.framework */,
-				1BE955B40D59B58572D0BEBA /* libPods-zyt_ydd.a */,
-				1E729C3292F0E9FA8835A3D6 /* libPods-ydd_mj_zyt.a */,
 				4B1CC6DBD87DD308BB0399AF /* libPods-zhongyizhushou.a */,
 			);
 			name = Frameworks;
@@ -616,6 +636,7 @@
 				79872A8121744044009D0C02 /* XueWeiTuListViewController.m in Sources */,
 				79872A8E21744044009D0C02 /* ZYTCaimiyuSecondListCtl.m in Sources */,
 				79872A6721744044009D0C02 /* UIImage+Common.m in Sources */,
+				79872AAB21747DE4009D0C02 /* ZYTTestViewController.m in Sources */,
 				79872A7021744044009D0C02 /* DCTabBarController.m in Sources */,
 				79872A6C21744044009D0C02 /* AppUntil.m in Sources */,
 				79872A7321744044009D0C02 /* BookContentModel.m in Sources */,
@@ -623,9 +644,11 @@
 				79872A8A21744044009D0C02 /* AnswerCell.m in Sources */,
 				79872A6321744044009D0C02 /* UIImage+DCCircle.m in Sources */,
 				79872A6221744044009D0C02 /* UIBarButtonItem+DCBarButtonItem.m in Sources */,
+				79872AA3217479E9009D0C02 /* ControlManager.m in Sources */,
 				79872A7621744044009D0C02 /* BookListModel.m in Sources */,
 				79872A8521744044009D0C02 /* HeadTableViewCell.m in Sources */,
 				79872A6121744044009D0C02 /* UIImageView+DCExtension.m in Sources */,
+				79872AAA21747DE4009D0C02 /* LUCKBottomView.m in Sources */,
 				79872A8821744044009D0C02 /* BookCell.m in Sources */,
 				79872A6521744044009D0C02 /* UIColor+DCColorChange.m in Sources */,
 				79872A8021744044009D0C02 /* LeftAndRightLabelCell.m in Sources */,
@@ -659,6 +682,7 @@
 				79872A7E21744044009D0C02 /* BookListTableViewController.m in Sources */,
 				79872A8621744044009D0C02 /* ZYTXueweituFirstCtl.m in Sources */,
 				79872A7C21744044009D0C02 /* ZYTCaimiyuDetailViewController.m in Sources */,
+				79872AAE21747E26009D0C02 /* ZYTUserzhengceViewController.m in Sources */,
 				79872A7721744044009D0C02 /* ZYTItemListModel.m in Sources */,
 				79872A6921744044009D0C02 /* ZYTNewBookDataManager.m in Sources */,
 				79872A7121744044009D0C02 /* main.m in Sources */,

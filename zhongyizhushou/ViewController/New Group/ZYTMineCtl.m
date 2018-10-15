@@ -62,7 +62,7 @@
     }
     if (indexPath.row == 1) {
         LeftAndRightLabelCell *cell= [tableView dequeueReusableCellWithIdentifier:@"LeftAndRightLabelCell"];
-        cell.leftLabel.text = @"我的金币";
+        cell.leftLabel.text = @"我的积分";
         NSNumber *coin = [currentUser objectForKey:@"coin"];
         cell.rightlabel.text = [NSString stringWithFormat:@"%ld",coin.integerValue];
         return cell;
@@ -101,7 +101,7 @@
             [currentUser setObject:[NSDate date] forKey:@"signIn"];
             [currentUser setObject:[NSNumber numberWithInteger:coin.integerValue + 10] forKey:@"coin"];
             [currentUser save];
-            [SVProgressHUD showInfoWithStatus:@"签到成功：金币+10"];
+            [SVProgressHUD showInfoWithStatus:@"签到成功：积分+10"];
             [self.tableView reloadData];
         }
         else{

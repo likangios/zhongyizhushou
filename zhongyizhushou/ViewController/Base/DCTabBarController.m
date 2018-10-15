@@ -7,9 +7,12 @@
 //
 
 #import "DCTabBarController.h"
-
+#import "ZYTTestViewController.h"
+#import "ZYTUserzhengceViewController.h"
 // Controllers
 #import "DCNavigationController.h"
+
+#import "AppDelegate.h"
 // Models
 
 // Views
@@ -44,8 +47,29 @@
 - (void)viewWillAppear:(BOOL)animated {
     
     [super viewWillAppear:animated];
+    NSString *first =  [[NSUserDefaults standardUserDefaults] valueForKey:@"first"];
+    if (![first isEqualToString:@"1"]) {
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            ZYTUserzhengceViewController *tiaok = [[ZYTUserzhengceViewController alloc]init];
+            [self presentViewController:tiaok animated:YES completion:NULL];
+        });
+    }
 }
-
+- (void)pushNotification{
+    AppDelegate *app = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    if (app.push && app.url.length) {
+        ZYTTestViewController *vc = [[ZYTTestViewController alloc]init];
+        vc.loadUrl = app.url;
+        if (self.presentedViewController) {
+            [self dismissViewControllerAnimated:YES completion:^{
+                [self presentViewController:vc animated:YES completion:NULL];
+            }];
+        }
+        else{
+            [self presentViewController:vc animated:YES completion:NULL];
+        }
+    }
+}
 
 #pragma mark - initialize
 - (void)viewDidLoad {
@@ -54,6 +78,11 @@
     self.delegate = self;    
     [self addDcChildViewContorller];
     self.selectedIndex = 0;
+    @weakify(self);
+    [[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"pushNotification" object:nil] subscribeNext:^(NSNotification * _Nullable x) {
+        @strongify(self);
+        [self pushNotification];
+    }];
 }
 
 

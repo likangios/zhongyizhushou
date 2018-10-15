@@ -107,7 +107,7 @@
             return obj.answer;
         }];
         if ([[selectedAnswer componentsJoinedByString:@""] isEqualToString:self.rightAnswer]) {
-            [self updateButtonTextColor:DCBGColor];
+            [self updateButtonTextColor:[UIColor greenColor]];
             [self.answerRightSignal sendNext:@(1)];
         }
         else{

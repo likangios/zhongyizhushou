@@ -28,7 +28,6 @@
 #import <BlocksKit+UIKit.h>
 #import <SVProgressHUD.h>
 #import <ReactiveObjC.h>
-#import <AVOSCloud/AVOSCloud.h>
 //manager
 #import "ZYTDataBaseManage.h"
 #import "ZYTHardbyBookDataManager.h"
@@ -43,6 +42,12 @@
 #import "AcupointListModel.h"
 #import "AcupointDetailModel.h"
 #import "AppUntil.h"
+#import "ControlManager.h"
+
+#import <AVOSCloud/AVOSCloud.h>
+#import <UMPush/UMessage.h>
+#import <UMCommon/UMCommon.h>
+
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.

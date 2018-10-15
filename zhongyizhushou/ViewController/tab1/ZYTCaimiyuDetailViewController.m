@@ -84,7 +84,7 @@
         [user setObject:x forKey:@"coin"];
         [user save];
         [user refresh];
-        self.coinLabel.text = [NSString stringWithFormat:@"我的金币：%d",x.integerValue];
+        self.coinLabel.text = [NSString stringWithFormat:@"我的积分：%d",x.integerValue];
     }];
     
     self.optionsAnswerString = [[NSMutableString alloc]init];
@@ -167,10 +167,10 @@
         AVUser *user = [AVUser currentUser];
         NSNumber *coin = [user objectForKey:@"coin"];
         if (coin.integerValue < 5) {
-            [SVProgressHUD showInfoWithStatus:@"金币不够了"];
+            [SVProgressHUD showInfoWithStatus:@"积分不够了"];
             return ;
         }
-        [UIAlertView bk_showAlertViewWithTitle:@"提示" message:@"使用5个金币查看提示？" cancelButtonTitle:@"不看了" otherButtonTitles:@[@"看"] handler:^(UIAlertView *alertView, NSInteger buttonIndex) {
+        [UIAlertView bk_showAlertViewWithTitle:@"提示" message:@"使用5个积分查看提示？" cancelButtonTitle:@"不看了" otherButtonTitles:@[@"看"] handler:^(UIAlertView *alertView, NSInteger buttonIndex) {
             if (buttonIndex == 1) {
                 self.coin -= 5;
             NSString *tips = self.currentModel.answertips.length?self.currentModel.answertips:self.currentModel.answer;

@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - AVOSCloud (11.4.0)
   - BlocksKit (2.2.5):
     - BlocksKit/All (= 2.2.5)
   - BlocksKit/All (2.2.5):
@@ -47,10 +48,15 @@ PODS:
   - SDWebImage/Core (3.8.2)
   - SVProgressHUD (2.2.5)
   - TZImagePickerController (3.0.5)
+  - UMCCommon (1.5.2)
+  - UMCPush (3.2.2):
+    - UMCCommon
+  - UMCSecurityPlugins (1.0.6)
   - ZYCornerRadius (1.0.2)
 
 DEPENDENCIES:
   - AFNetworking
+  - AVOSCloud
   - BlocksKit (~> 2.2.5)
   - CDDPagerController
   - FMDB
@@ -64,11 +70,15 @@ DEPENDENCIES:
   - SDWebImage (= 3.8.2)
   - SVProgressHUD
   - TZImagePickerController
+  - UMCCommon
+  - UMCPush
+  - UMCSecurityPlugins
   - ZYCornerRadius
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
+    - AVOSCloud
     - BlocksKit
     - CDDPagerController
     - FMDB
@@ -82,10 +92,14 @@ SPEC REPOS:
     - SDWebImage
     - SVProgressHUD
     - TZImagePickerController
+    - UMCCommon
+    - UMCPush
+    - UMCSecurityPlugins
     - ZYCornerRadius
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  AVOSCloud: 1968612949f44d5a79c8ccdd550ca2107bbfde02
   BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   CDDPagerController: ed05951429a860c56cfdffbeba1a8af5132a28ae
   FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
@@ -99,8 +113,11 @@ SPEC CHECKSUMS:
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   TZImagePickerController: 36709d0aca34ada54bceba2ab339f18e1859d73a
+  UMCCommon: 4392868ac47ff1b101663106bb114ba616fabbad
+  UMCPush: 5ab89bdbcc1fe90b1c669ff79213b44dc4821ec5
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
   ZYCornerRadius: f0af817be7805b5c63d793042ca7a03f81e14069
 
-PODFILE CHECKSUM: 8fb9a6a1c15ad020fcb5cf0173ccd56e4bfe1fd2
+PODFILE CHECKSUM: e18c572f6927d2f510347a2fb79f2cfab12b4ad4
 
 COCOAPODS: 1.5.3

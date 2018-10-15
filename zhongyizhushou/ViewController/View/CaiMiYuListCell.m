@@ -49,7 +49,7 @@
     if (!_bgView) {
         _bgView = [UIView new];
         _bgView.layer.borderColor = DCBGColor.CGColor;
-        _bgView.layer.borderWidth = 4;
+        _bgView.layer.borderWidth = 1;
     }
     return _bgView;
 }
