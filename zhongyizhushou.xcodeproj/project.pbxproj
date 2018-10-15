@@ -1,0 +1,877 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7916E4C22151F6A7000F2BD2 /* AVOSCloud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7916E4C12151F6A7000F2BD2 /* AVOSCloud.framework */; };
+		79872A5921744044009D0C02 /* ZYTDataBaseManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729DF21744044009D0C02 /* ZYTDataBaseManage.m */; };
+		79872A5A21744044009D0C02 /* ZYTHardbyBookDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729E021744044009D0C02 /* ZYTHardbyBookDataManager.m */; };
+		79872A5B21744044009D0C02 /* ZYTAcupointDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729E421744044009D0C02 /* ZYTAcupointDataManager.m */; };
+		79872A5C21744044009D0C02 /* NSObject+DCNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729E721744044009D0C02 /* NSObject+DCNull.m */; };
+		79872A5D21744044009D0C02 /* UILabel+DCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729E821744044009D0C02 /* UILabel+DCLabel.m */; };
+		79872A5E21744044009D0C02 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729E921744044009D0C02 /* UIView+Frame.m */; };
+		79872A5F21744044009D0C02 /* UIView+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729EB21744044009D0C02 /* UIView+Common.m */; };
+		79872A6021744044009D0C02 /* UIView+DCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729EC21744044009D0C02 /* UIView+DCExtension.m */; };
+		79872A6121744044009D0C02 /* UIImageView+DCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729ED21744044009D0C02 /* UIImageView+DCExtension.m */; };
+		79872A6221744044009D0C02 /* UIBarButtonItem+DCBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729EE21744044009D0C02 /* UIBarButtonItem+DCBarButtonItem.m */; };
+		79872A6321744044009D0C02 /* UIImage+DCCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729EF21744044009D0C02 /* UIImage+DCCircle.m */; };
+		79872A6421744044009D0C02 /* NSURL+DCHook.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729F321744044009D0C02 /* NSURL+DCHook.m */; };
+		79872A6521744044009D0C02 /* UIColor+DCColorChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729F921744044009D0C02 /* UIColor+DCColorChange.m */; };
+		79872A6621744044009D0C02 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729FB21744044009D0C02 /* UIColor+expanded.m */; };
+		79872A6721744044009D0C02 /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729FC21744044009D0C02 /* UIImage+Common.m */; };
+		79872A6821744044009D0C02 /* UILabel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729FD21744044009D0C02 /* UILabel+Common.m */; };
+		79872A6921744044009D0C02 /* ZYTNewBookDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A0021744044009D0C02 /* ZYTNewBookDataManager.m */; };
+		79872A6A21744044009D0C02 /* GQGesVCTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A0221744044009D0C02 /* GQGesVCTransition.m */; };
+		79872A6B21744044009D0C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79872A0521744044009D0C02 /* Assets.xcassets */; };
+		79872A6C21744044009D0C02 /* AppUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A0621744044009D0C02 /* AppUntil.m */; };
+		79872A6D21744044009D0C02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A0721744044009D0C02 /* ViewController.m */; };
+		79872A6E21744044009D0C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79872A0921744044009D0C02 /* LaunchScreen.storyboard */; };
+		79872A6F21744044009D0C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79872A0B21744044009D0C02 /* Main.storyboard */; };
+		79872A7021744044009D0C02 /* DCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A0D21744044009D0C02 /* DCTabBarController.m */; };
+		79872A7121744044009D0C02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1021744044009D0C02 /* main.m */; };
+		79872A7221744044009D0C02 /* AcupointListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1321744044009D0C02 /* AcupointListModel.m */; };
+		79872A7321744044009D0C02 /* BookContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1521744044009D0C02 /* BookContentModel.m */; };
+		79872A7421744044009D0C02 /* BookMuLuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1621744044009D0C02 /* BookMuLuModel.m */; };
+		79872A7521744044009D0C02 /* ZYTItemCountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1821744044009D0C02 /* ZYTItemCountModel.m */; };
+		79872A7621744044009D0C02 /* BookListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1921744044009D0C02 /* BookListModel.m */; };
+		79872A7721744044009D0C02 /* ZYTItemListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1A21744044009D0C02 /* ZYTItemListModel.m */; };
+		79872A7821744044009D0C02 /* AcupointDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1C21744044009D0C02 /* AcupointDetailModel.m */; };
+		79872A7921744044009D0C02 /* BookBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2021744044009D0C02 /* BookBaseModel.m */; };
+		79872A7A21744044009D0C02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2421744044009D0C02 /* AppDelegate.m */; };
+		79872A7B21744044009D0C02 /* DCBaseSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2521744044009D0C02 /* DCBaseSetViewController.m */; };
+		79872A7C21744044009D0C02 /* ZYTCaimiyuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2921744044009D0C02 /* ZYTCaimiyuDetailViewController.m */; };
+		79872A7D21744044009D0C02 /* ZYTMineCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2A21744044009D0C02 /* ZYTMineCtl.m */; };
+		79872A7E21744044009D0C02 /* BookListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2B21744044009D0C02 /* BookListTableViewController.m */; };
+		79872A7F21744044009D0C02 /* ZYTCaimiyuFirstListCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2F21744044009D0C02 /* ZYTCaimiyuFirstListCtl.m */; };
+		79872A8021744044009D0C02 /* LeftAndRightLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3021744044009D0C02 /* LeftAndRightLabelCell.m */; };
+		79872A8121744044009D0C02 /* XueWeiTuListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3221744044009D0C02 /* XueWeiTuListViewController.m */; };
+		79872A8221744044009D0C02 /* BookContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3421744044009D0C02 /* BookContentViewController.m */; };
+		79872A8321744044009D0C02 /* ZYTBooksHomePageCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3521744044009D0C02 /* ZYTBooksHomePageCtl.m */; };
+		79872A8421744044009D0C02 /* SignInTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3921744044009D0C02 /* SignInTableViewCell.m */; };
+		79872A8521744044009D0C02 /* HeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3A21744044009D0C02 /* HeadTableViewCell.m */; };
+		79872A8621744044009D0C02 /* ZYTXueweituFirstCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3B21744044009D0C02 /* ZYTXueweituFirstCtl.m */; };
+		79872A8721744044009D0C02 /* CaiMiYuListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3D21744044009D0C02 /* CaiMiYuListCell.m */; };
+		79872A8821744044009D0C02 /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3F21744044009D0C02 /* BookCell.m */; };
+		79872A8921744044009D0C02 /* ZYTOptionsAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4121744044009D0C02 /* ZYTOptionsAnswer.m */; };
+		79872A8A21744044009D0C02 /* AnswerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4221744044009D0C02 /* AnswerCell.m */; };
+		79872A8B21744044009D0C02 /* ZYTAnswerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4421744044009D0C02 /* ZYTAnswerView.m */; };
+		79872A8C21744044009D0C02 /* ZYTAnswerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4721744044009D0C02 /* ZYTAnswerModel.m */; };
+		79872A8D21744044009D0C02 /* XueWeiTuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4A21744044009D0C02 /* XueWeiTuDetailViewController.m */; };
+		79872A8E21744044009D0C02 /* ZYTCaimiyuSecondListCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4F21744044009D0C02 /* ZYTCaimiyuSecondListCtl.m */; };
+		79872A8F21744044009D0C02 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79872A5021744044009D0C02 /* Info.plist */; };
+		79872A9021744044009D0C02 /* DCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A5121744044009D0C02 /* DCNavigationController.m */; };
+		79872A9121744044009D0C02 /* riddles.db in Resources */ = {isa = PBXBuildFile; fileRef = 79872A5521744044009D0C02 /* riddles.db */; };
+		79872A9221744044009D0C02 /* newbook.db in Resources */ = {isa = PBXBuildFile; fileRef = 79872A5621744044009D0C02 /* newbook.db */; };
+		79872A9321744044009D0C02 /* hardbybook.db in Resources */ = {isa = PBXBuildFile; fileRef = 79872A5721744044009D0C02 /* hardbybook.db */; };
+		79872A9421744044009D0C02 /* acupuncture.db in Resources */ = {isa = PBXBuildFile; fileRef = 79872A5821744044009D0C02 /* acupuncture.db */; };
+		79872A97217468C4009D0C02 /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = 79872A96217468C3009D0C02 /* Icon-167.png */; };
+		D97A4D70BB862CB3A2A338BF /* libPods-zhongyizhushou.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1CC6DBD87DD308BB0399AF /* libPods-zhongyizhushou.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1BE955B40D59B58572D0BEBA /* libPods-zyt_ydd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zyt_ydd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E729C3292F0E9FA8835A3D6 /* libPods-ydd_mj_zyt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ydd_mj_zyt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1CC6DBD87DD308BB0399AF /* libPods-zhongyizhushou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zhongyizhushou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		564C465A4F4F045F34EA5801 /* Pods-zhongyizhushou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhongyizhushou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zhongyizhushou/Pods-zhongyizhushou.debug.xcconfig"; sourceTree = "<group>"; };
+		7916E4752151EE50000F2BD2 /* zhongyizhushou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhongyizhushou.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7916E4C12151F6A7000F2BD2 /* AVOSCloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AVOSCloud.framework; sourceTree = "<group>"; };
+		798729DF21744044009D0C02 /* ZYTDataBaseManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTDataBaseManage.m; sourceTree = "<group>"; };
+		798729E021744044009D0C02 /* ZYTHardbyBookDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTHardbyBookDataManager.m; sourceTree = "<group>"; };
+		798729E121744044009D0C02 /* DCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTabBarController.h; sourceTree = "<group>"; };
+		798729E321744044009D0C02 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		798729E421744044009D0C02 /* ZYTAcupointDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTAcupointDataManager.m; sourceTree = "<group>"; };
+		798729E621744044009D0C02 /* NSURL+DCHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+DCHook.h"; sourceTree = "<group>"; };
+		798729E721744044009D0C02 /* NSObject+DCNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DCNull.m"; sourceTree = "<group>"; };
+		798729E821744044009D0C02 /* UILabel+DCLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DCLabel.m"; sourceTree = "<group>"; };
+		798729E921744044009D0C02 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		798729EA21744044009D0C02 /* UIColor+DCColorChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DCColorChange.h"; sourceTree = "<group>"; };
+		798729EB21744044009D0C02 /* UIView+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Common.m"; sourceTree = "<group>"; };
+		798729EC21744044009D0C02 /* UIView+DCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DCExtension.m"; sourceTree = "<group>"; };
+		798729ED21744044009D0C02 /* UIImageView+DCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DCExtension.m"; sourceTree = "<group>"; };
+		798729EE21744044009D0C02 /* UIBarButtonItem+DCBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+DCBarButtonItem.m"; sourceTree = "<group>"; };
+		798729EF21744044009D0C02 /* UIImage+DCCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+DCCircle.m"; sourceTree = "<group>"; };
+		798729F021744044009D0C02 /* UILabel+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Common.h"; sourceTree = "<group>"; };
+		798729F121744044009D0C02 /* UIImage+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
+		798729F221744044009D0C02 /* UIColor+expanded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+expanded.h"; sourceTree = "<group>"; };
+		798729F321744044009D0C02 /* NSURL+DCHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+DCHook.m"; sourceTree = "<group>"; };
+		798729F421744044009D0C02 /* UILabel+DCLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DCLabel.h"; sourceTree = "<group>"; };
+		798729F521744044009D0C02 /* NSObject+DCNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DCNull.h"; sourceTree = "<group>"; };
+		798729F621744044009D0C02 /* UIImageView+DCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DCExtension.h"; sourceTree = "<group>"; };
+		798729F721744044009D0C02 /* UIView+DCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DCExtension.h"; sourceTree = "<group>"; };
+		798729F821744044009D0C02 /* UIView+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Common.h"; sourceTree = "<group>"; };
+		798729F921744044009D0C02 /* UIColor+DCColorChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DCColorChange.m"; sourceTree = "<group>"; };
+		798729FA21744044009D0C02 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		798729FB21744044009D0C02 /* UIColor+expanded.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+expanded.m"; sourceTree = "<group>"; };
+		798729FC21744044009D0C02 /* UIImage+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
+		798729FD21744044009D0C02 /* UILabel+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Common.m"; sourceTree = "<group>"; };
+		798729FE21744044009D0C02 /* UIImage+DCCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DCCircle.h"; sourceTree = "<group>"; };
+		798729FF21744044009D0C02 /* UIBarButtonItem+DCBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+DCBarButtonItem.h"; sourceTree = "<group>"; };
+		79872A0021744044009D0C02 /* ZYTNewBookDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTNewBookDataManager.m; sourceTree = "<group>"; };
+		79872A0221744044009D0C02 /* GQGesVCTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQGesVCTransition.m; sourceTree = "<group>"; };
+		79872A0321744044009D0C02 /* GQGesVCTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQGesVCTransition.h; sourceTree = "<group>"; };
+		79872A0421744044009D0C02 /* DCBaseSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBaseSetViewController.h; sourceTree = "<group>"; };
+		79872A0521744044009D0C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79872A0621744044009D0C02 /* AppUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUntil.m; sourceTree = "<group>"; };
+		79872A0721744044009D0C02 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79872A0821744044009D0C02 /* DCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCNavigationController.h; sourceTree = "<group>"; };
+		79872A0A21744044009D0C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79872A0C21744044009D0C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79872A0D21744044009D0C02 /* DCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTabBarController.m; sourceTree = "<group>"; };
+		79872A0E21744044009D0C02 /* ZYTHardbyBookDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTHardbyBookDataManager.h; sourceTree = "<group>"; };
+		79872A0F21744044009D0C02 /* ZYTDataBaseManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTDataBaseManage.h; sourceTree = "<group>"; };
+		79872A1021744044009D0C02 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79872A1121744044009D0C02 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		79872A1321744044009D0C02 /* AcupointListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcupointListModel.m; sourceTree = "<group>"; };
+		79872A1421744044009D0C02 /* AcupointDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcupointDetailModel.h; sourceTree = "<group>"; };
+		79872A1521744044009D0C02 /* BookContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookContentModel.m; sourceTree = "<group>"; };
+		79872A1621744044009D0C02 /* BookMuLuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookMuLuModel.m; sourceTree = "<group>"; };
+		79872A1721744044009D0C02 /* BookBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookBaseModel.h; sourceTree = "<group>"; };
+		79872A1821744044009D0C02 /* ZYTItemCountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTItemCountModel.m; sourceTree = "<group>"; };
+		79872A1921744044009D0C02 /* BookListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListModel.m; sourceTree = "<group>"; };
+		79872A1A21744044009D0C02 /* ZYTItemListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTItemListModel.m; sourceTree = "<group>"; };
+		79872A1B21744044009D0C02 /* BookContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookContentModel.h; sourceTree = "<group>"; };
+		79872A1C21744044009D0C02 /* AcupointDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcupointDetailModel.m; sourceTree = "<group>"; };
+		79872A1D21744044009D0C02 /* AcupointListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcupointListModel.h; sourceTree = "<group>"; };
+		79872A1E21744044009D0C02 /* BookListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListModel.h; sourceTree = "<group>"; };
+		79872A1F21744044009D0C02 /* ZYTItemListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTItemListModel.h; sourceTree = "<group>"; };
+		79872A2021744044009D0C02 /* BookBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookBaseModel.m; sourceTree = "<group>"; };
+		79872A2121744044009D0C02 /* ZYTItemCountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTItemCountModel.h; sourceTree = "<group>"; };
+		79872A2221744044009D0C02 /* BookMuLuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookMuLuModel.h; sourceTree = "<group>"; };
+		79872A2321744044009D0C02 /* ZYTAcupointDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTAcupointDataManager.h; sourceTree = "<group>"; };
+		79872A2421744044009D0C02 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79872A2521744044009D0C02 /* DCBaseSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBaseSetViewController.m; sourceTree = "<group>"; };
+		79872A2621744044009D0C02 /* ZYTNewBookDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTNewBookDataManager.h; sourceTree = "<group>"; };
+		79872A2721744044009D0C02 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		79872A2921744044009D0C02 /* ZYTCaimiyuDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTCaimiyuDetailViewController.m; sourceTree = "<group>"; };
+		79872A2A21744044009D0C02 /* ZYTMineCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTMineCtl.m; sourceTree = "<group>"; };
+		79872A2B21744044009D0C02 /* BookListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListTableViewController.m; sourceTree = "<group>"; };
+		79872A2C21744044009D0C02 /* ZYTXueweituFirstCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTXueweituFirstCtl.h; sourceTree = "<group>"; };
+		79872A2D21744044009D0C02 /* HeadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadTableViewCell.h; sourceTree = "<group>"; };
+		79872A2E21744044009D0C02 /* SignInTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInTableViewCell.h; sourceTree = "<group>"; };
+		79872A2F21744044009D0C02 /* ZYTCaimiyuFirstListCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTCaimiyuFirstListCtl.m; sourceTree = "<group>"; };
+		79872A3021744044009D0C02 /* LeftAndRightLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftAndRightLabelCell.m; sourceTree = "<group>"; };
+		79872A3121744044009D0C02 /* XueWeiTuDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XueWeiTuDetailViewController.h; sourceTree = "<group>"; };
+		79872A3221744044009D0C02 /* XueWeiTuListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XueWeiTuListViewController.m; sourceTree = "<group>"; };
+		79872A3321744044009D0C02 /* ZYTCaimiyuSecondListCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTCaimiyuSecondListCtl.h; sourceTree = "<group>"; };
+		79872A3421744044009D0C02 /* BookContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookContentViewController.m; sourceTree = "<group>"; };
+		79872A3521744044009D0C02 /* ZYTBooksHomePageCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTBooksHomePageCtl.m; sourceTree = "<group>"; };
+		79872A3621744044009D0C02 /* BookListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListTableViewController.h; sourceTree = "<group>"; };
+		79872A3721744044009D0C02 /* ZYTMineCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTMineCtl.h; sourceTree = "<group>"; };
+		79872A3821744044009D0C02 /* ZYTCaimiyuDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTCaimiyuDetailViewController.h; sourceTree = "<group>"; };
+		79872A3921744044009D0C02 /* SignInTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInTableViewCell.m; sourceTree = "<group>"; };
+		79872A3A21744044009D0C02 /* HeadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadTableViewCell.m; sourceTree = "<group>"; };
+		79872A3B21744044009D0C02 /* ZYTXueweituFirstCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTXueweituFirstCtl.m; sourceTree = "<group>"; };
+		79872A3D21744044009D0C02 /* CaiMiYuListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaiMiYuListCell.m; sourceTree = "<group>"; };
+		79872A3E21744044009D0C02 /* ZYTAnswerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTAnswerView.h; sourceTree = "<group>"; };
+		79872A3F21744044009D0C02 /* BookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCell.m; sourceTree = "<group>"; };
+		79872A4021744044009D0C02 /* ZYTAnswerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTAnswerModel.h; sourceTree = "<group>"; };
+		79872A4121744044009D0C02 /* ZYTOptionsAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTOptionsAnswer.m; sourceTree = "<group>"; };
+		79872A4221744044009D0C02 /* AnswerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerCell.m; sourceTree = "<group>"; };
+		79872A4321744044009D0C02 /* BookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCell.h; sourceTree = "<group>"; };
+		79872A4421744044009D0C02 /* ZYTAnswerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTAnswerView.m; sourceTree = "<group>"; };
+		79872A4521744044009D0C02 /* CaiMiYuListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaiMiYuListCell.h; sourceTree = "<group>"; };
+		79872A4621744044009D0C02 /* ZYTOptionsAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTOptionsAnswer.h; sourceTree = "<group>"; };
+		79872A4721744044009D0C02 /* ZYTAnswerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTAnswerModel.m; sourceTree = "<group>"; };
+		79872A4821744044009D0C02 /* AnswerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerCell.h; sourceTree = "<group>"; };
+		79872A4921744044009D0C02 /* XueWeiTuListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XueWeiTuListViewController.h; sourceTree = "<group>"; };
+		79872A4A21744044009D0C02 /* XueWeiTuDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XueWeiTuDetailViewController.m; sourceTree = "<group>"; };
+		79872A4B21744044009D0C02 /* LeftAndRightLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftAndRightLabelCell.h; sourceTree = "<group>"; };
+		79872A4C21744044009D0C02 /* ZYTCaimiyuFirstListCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTCaimiyuFirstListCtl.h; sourceTree = "<group>"; };
+		79872A4D21744044009D0C02 /* ZYTBooksHomePageCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTBooksHomePageCtl.h; sourceTree = "<group>"; };
+		79872A4E21744044009D0C02 /* BookContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookContentViewController.h; sourceTree = "<group>"; };
+		79872A4F21744044009D0C02 /* ZYTCaimiyuSecondListCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTCaimiyuSecondListCtl.m; sourceTree = "<group>"; };
+		79872A5021744044009D0C02 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79872A5121744044009D0C02 /* DCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCNavigationController.m; sourceTree = "<group>"; };
+		79872A5221744044009D0C02 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79872A5321744044009D0C02 /* AppUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUntil.h; sourceTree = "<group>"; };
+		79872A5521744044009D0C02 /* riddles.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = riddles.db; sourceTree = "<group>"; };
+		79872A5621744044009D0C02 /* newbook.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = newbook.db; sourceTree = "<group>"; };
+		79872A5721744044009D0C02 /* hardbybook.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = hardbybook.db; sourceTree = "<group>"; };
+		79872A5821744044009D0C02 /* acupuncture.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = acupuncture.db; sourceTree = "<group>"; };
+		79872A95217441A9009D0C02 /* zhongyizhushou.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = zhongyizhushou.entitlements; sourceTree = "<group>"; };
+		79872A96217468C3009D0C02 /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-167.png"; sourceTree = "<group>"; };
+		8B6D295C34FDCF6975847EBD /* Pods-zhongyizhushou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhongyizhushou.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhongyizhushou/Pods-zhongyizhushou.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7916E4722151EE50000F2BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7916E4C22151F6A7000F2BD2 /* AVOSCloud.framework in Frameworks */,
+				D97A4D70BB862CB3A2A338BF /* libPods-zhongyizhushou.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7916E46C2151EE50000F2BD2 = {
+			isa = PBXGroup;
+			children = (
+				798729DE21744044009D0C02 /* zhongyizhushou */,
+				7916E4762151EE50000F2BD2 /* Products */,
+				AF2E354BBB73343C49252D74 /* Pods */,
+				B502B77DA2008B96C760CD0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7916E4762151EE50000F2BD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7916E4752151EE50000F2BD2 /* zhongyizhushou.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		798729DE21744044009D0C02 /* zhongyizhushou */ = {
+			isa = PBXGroup;
+			children = (
+				79872A95217441A9009D0C02 /* zhongyizhushou.entitlements */,
+				79872A96217468C3009D0C02 /* Icon-167.png */,
+				79872A9A21746AC4009D0C02 /* Until */,
+				79872A9921746A98009D0C02 /* Appdelegate */,
+				79872A9821746A73009D0C02 /* manager */,
+				798729E521744044009D0C02 /* Category */,
+				79872A0121744044009D0C02 /* GQGesVCTransition */,
+				79872A1221744044009D0C02 /* Model */,
+				79872A2821744044009D0C02 /* ViewController */,
+				79872A5021744044009D0C02 /* Info.plist */,
+				79872A0521744044009D0C02 /* Assets.xcassets */,
+				79872A0921744044009D0C02 /* LaunchScreen.storyboard */,
+				79872A0B21744044009D0C02 /* Main.storyboard */,
+				79872A1021744044009D0C02 /* main.m */,
+				79872A1121744044009D0C02 /* Macros.h */,
+				79872A2721744044009D0C02 /* PrefixHeader.pch */,
+				79872A5421744044009D0C02 /* dbfile */,
+			);
+			path = zhongyizhushou;
+			sourceTree = "<group>";
+		};
+		798729E521744044009D0C02 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				798729E621744044009D0C02 /* NSURL+DCHook.h */,
+				798729E721744044009D0C02 /* NSObject+DCNull.m */,
+				798729E821744044009D0C02 /* UILabel+DCLabel.m */,
+				798729E921744044009D0C02 /* UIView+Frame.m */,
+				798729EA21744044009D0C02 /* UIColor+DCColorChange.h */,
+				798729EB21744044009D0C02 /* UIView+Common.m */,
+				798729EC21744044009D0C02 /* UIView+DCExtension.m */,
+				798729ED21744044009D0C02 /* UIImageView+DCExtension.m */,
+				798729EE21744044009D0C02 /* UIBarButtonItem+DCBarButtonItem.m */,
+				798729EF21744044009D0C02 /* UIImage+DCCircle.m */,
+				798729F021744044009D0C02 /* UILabel+Common.h */,
+				798729F121744044009D0C02 /* UIImage+Common.h */,
+				798729F221744044009D0C02 /* UIColor+expanded.h */,
+				798729F321744044009D0C02 /* NSURL+DCHook.m */,
+				798729F421744044009D0C02 /* UILabel+DCLabel.h */,
+				798729F521744044009D0C02 /* NSObject+DCNull.h */,
+				798729F621744044009D0C02 /* UIImageView+DCExtension.h */,
+				798729F721744044009D0C02 /* UIView+DCExtension.h */,
+				798729F821744044009D0C02 /* UIView+Common.h */,
+				798729F921744044009D0C02 /* UIColor+DCColorChange.m */,
+				798729FA21744044009D0C02 /* UIView+Frame.h */,
+				798729FB21744044009D0C02 /* UIColor+expanded.m */,
+				798729FC21744044009D0C02 /* UIImage+Common.m */,
+				798729FD21744044009D0C02 /* UILabel+Common.m */,
+				798729FE21744044009D0C02 /* UIImage+DCCircle.h */,
+				798729FF21744044009D0C02 /* UIBarButtonItem+DCBarButtonItem.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		79872A0121744044009D0C02 /* GQGesVCTransition */ = {
+			isa = PBXGroup;
+			children = (
+				79872A0221744044009D0C02 /* GQGesVCTransition.m */,
+				79872A0321744044009D0C02 /* GQGesVCTransition.h */,
+			);
+			path = GQGesVCTransition;
+			sourceTree = "<group>";
+		};
+		79872A1221744044009D0C02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79872A1321744044009D0C02 /* AcupointListModel.m */,
+				79872A1421744044009D0C02 /* AcupointDetailModel.h */,
+				79872A1521744044009D0C02 /* BookContentModel.m */,
+				79872A1621744044009D0C02 /* BookMuLuModel.m */,
+				79872A1721744044009D0C02 /* BookBaseModel.h */,
+				79872A1821744044009D0C02 /* ZYTItemCountModel.m */,
+				79872A1921744044009D0C02 /* BookListModel.m */,
+				79872A1A21744044009D0C02 /* ZYTItemListModel.m */,
+				79872A1B21744044009D0C02 /* BookContentModel.h */,
+				79872A1C21744044009D0C02 /* AcupointDetailModel.m */,
+				79872A1D21744044009D0C02 /* AcupointListModel.h */,
+				79872A1E21744044009D0C02 /* BookListModel.h */,
+				79872A1F21744044009D0C02 /* ZYTItemListModel.h */,
+				79872A2021744044009D0C02 /* BookBaseModel.m */,
+				79872A2121744044009D0C02 /* ZYTItemCountModel.h */,
+				79872A2221744044009D0C02 /* BookMuLuModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79872A2821744044009D0C02 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				79872AA021746BD1009D0C02 /* tab4 */,
+				79872A9F21746BCB009D0C02 /* tab3 */,
+				79872A9E21746BC5009D0C02 /* tab2 */,
+				79872A9D21746BBD009D0C02 /* tab1 */,
+				79872A3C21744044009D0C02 /* View */,
+				79872A9B21746B63009D0C02 /* Base */,
+				79872A0721744044009D0C02 /* ViewController.m */,
+				79872A5221744044009D0C02 /* ViewController.h */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		79872A3C21744044009D0C02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79872A2D21744044009D0C02 /* HeadTableViewCell.h */,
+				79872A2E21744044009D0C02 /* SignInTableViewCell.h */,
+				79872A3021744044009D0C02 /* LeftAndRightLabelCell.m */,
+				79872A3921744044009D0C02 /* SignInTableViewCell.m */,
+				79872A3A21744044009D0C02 /* HeadTableViewCell.m */,
+				79872A4B21744044009D0C02 /* LeftAndRightLabelCell.h */,
+				79872A3D21744044009D0C02 /* CaiMiYuListCell.m */,
+				79872A3E21744044009D0C02 /* ZYTAnswerView.h */,
+				79872A3F21744044009D0C02 /* BookCell.m */,
+				79872A4021744044009D0C02 /* ZYTAnswerModel.h */,
+				79872A4121744044009D0C02 /* ZYTOptionsAnswer.m */,
+				79872A4221744044009D0C02 /* AnswerCell.m */,
+				79872A4321744044009D0C02 /* BookCell.h */,
+				79872A4421744044009D0C02 /* ZYTAnswerView.m */,
+				79872A4521744044009D0C02 /* CaiMiYuListCell.h */,
+				79872A4621744044009D0C02 /* ZYTOptionsAnswer.h */,
+				79872A4721744044009D0C02 /* ZYTAnswerModel.m */,
+				79872A4821744044009D0C02 /* AnswerCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		79872A5421744044009D0C02 /* dbfile */ = {
+			isa = PBXGroup;
+			children = (
+				79872A5521744044009D0C02 /* riddles.db */,
+				79872A5621744044009D0C02 /* newbook.db */,
+				79872A5721744044009D0C02 /* hardbybook.db */,
+				79872A5821744044009D0C02 /* acupuncture.db */,
+			);
+			path = dbfile;
+			sourceTree = "<group>";
+		};
+		79872A9821746A73009D0C02 /* manager */ = {
+			isa = PBXGroup;
+			children = (
+				798729DF21744044009D0C02 /* ZYTDataBaseManage.m */,
+				79872A0021744044009D0C02 /* ZYTNewBookDataManager.m */,
+				79872A0E21744044009D0C02 /* ZYTHardbyBookDataManager.h */,
+				79872A0F21744044009D0C02 /* ZYTDataBaseManage.h */,
+				79872A2321744044009D0C02 /* ZYTAcupointDataManager.h */,
+				79872A2621744044009D0C02 /* ZYTNewBookDataManager.h */,
+				798729E021744044009D0C02 /* ZYTHardbyBookDataManager.m */,
+				798729E421744044009D0C02 /* ZYTAcupointDataManager.m */,
+			);
+			path = manager;
+			sourceTree = "<group>";
+		};
+		79872A9921746A98009D0C02 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				798729E321744044009D0C02 /* AppDelegate.h */,
+				79872A2421744044009D0C02 /* AppDelegate.m */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		79872A9A21746AC4009D0C02 /* Until */ = {
+			isa = PBXGroup;
+			children = (
+				79872A0621744044009D0C02 /* AppUntil.m */,
+				79872A5321744044009D0C02 /* AppUntil.h */,
+			);
+			path = Until;
+			sourceTree = "<group>";
+		};
+		79872A9B21746B63009D0C02 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				798729E121744044009D0C02 /* DCTabBarController.h */,
+				79872A0D21744044009D0C02 /* DCTabBarController.m */,
+				79872A0821744044009D0C02 /* DCNavigationController.h */,
+				79872A5121744044009D0C02 /* DCNavigationController.m */,
+				79872A0421744044009D0C02 /* DCBaseSetViewController.h */,
+				79872A2521744044009D0C02 /* DCBaseSetViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		79872A9D21746BBD009D0C02 /* tab1 */ = {
+			isa = PBXGroup;
+			children = (
+				79872A4C21744044009D0C02 /* ZYTCaimiyuFirstListCtl.h */,
+				79872A2F21744044009D0C02 /* ZYTCaimiyuFirstListCtl.m */,
+				79872A3321744044009D0C02 /* ZYTCaimiyuSecondListCtl.h */,
+				79872A4F21744044009D0C02 /* ZYTCaimiyuSecondListCtl.m */,
+				79872A3821744044009D0C02 /* ZYTCaimiyuDetailViewController.h */,
+				79872A2921744044009D0C02 /* ZYTCaimiyuDetailViewController.m */,
+			);
+			path = tab1;
+			sourceTree = "<group>";
+		};
+		79872A9E21746BC5009D0C02 /* tab2 */ = {
+			isa = PBXGroup;
+			children = (
+				79872A4D21744044009D0C02 /* ZYTBooksHomePageCtl.h */,
+				79872A3521744044009D0C02 /* ZYTBooksHomePageCtl.m */,
+				79872A2B21744044009D0C02 /* BookListTableViewController.m */,
+				79872A3421744044009D0C02 /* BookContentViewController.m */,
+				79872A3621744044009D0C02 /* BookListTableViewController.h */,
+				79872A4E21744044009D0C02 /* BookContentViewController.h */,
+			);
+			path = tab2;
+			sourceTree = "<group>";
+		};
+		79872A9F21746BCB009D0C02 /* tab3 */ = {
+			isa = PBXGroup;
+			children = (
+				79872A2C21744044009D0C02 /* ZYTXueweituFirstCtl.h */,
+				79872A3B21744044009D0C02 /* ZYTXueweituFirstCtl.m */,
+				79872A4921744044009D0C02 /* XueWeiTuListViewController.h */,
+				79872A3221744044009D0C02 /* XueWeiTuListViewController.m */,
+				79872A3121744044009D0C02 /* XueWeiTuDetailViewController.h */,
+				79872A4A21744044009D0C02 /* XueWeiTuDetailViewController.m */,
+			);
+			path = tab3;
+			sourceTree = "<group>";
+		};
+		79872AA021746BD1009D0C02 /* tab4 */ = {
+			isa = PBXGroup;
+			children = (
+				79872A3721744044009D0C02 /* ZYTMineCtl.h */,
+				79872A2A21744044009D0C02 /* ZYTMineCtl.m */,
+			);
+			name = tab4;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		AF2E354BBB73343C49252D74 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				564C465A4F4F045F34EA5801 /* Pods-zhongyizhushou.debug.xcconfig */,
+				8B6D295C34FDCF6975847EBD /* Pods-zhongyizhushou.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B502B77DA2008B96C760CD0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7916E4C12151F6A7000F2BD2 /* AVOSCloud.framework */,
+				1BE955B40D59B58572D0BEBA /* libPods-zyt_ydd.a */,
+				1E729C3292F0E9FA8835A3D6 /* libPods-ydd_mj_zyt.a */,
+				4B1CC6DBD87DD308BB0399AF /* libPods-zhongyizhushou.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7916E4742151EE50000F2BD2 /* zhongyizhushou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7916E48B2151EE52000F2BD2 /* Build configuration list for PBXNativeTarget "zhongyizhushou" */;
+			buildPhases = (
+				FC837DA2858D6A1B07FFF7BC /* [CP] Check Pods Manifest.lock */,
+				7916E4712151EE50000F2BD2 /* Sources */,
+				7916E4722151EE50000F2BD2 /* Frameworks */,
+				7916E4732151EE50000F2BD2 /* Resources */,
+				DED4C2A37447821CA19BA0BD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zhongyizhushou;
+			productName = zyt_ydd;
+			productReference = 7916E4752151EE50000F2BD2 /* zhongyizhushou.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7916E46D2151EE50000F2BD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = perfay;
+				TargetAttributes = {
+					7916E4742151EE50000F2BD2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7916E4702151EE50000F2BD2 /* Build configuration list for PBXProject "zhongyizhushou" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7916E46C2151EE50000F2BD2;
+			productRefGroup = 7916E4762151EE50000F2BD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7916E4742151EE50000F2BD2 /* zhongyizhushou */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7916E4732151EE50000F2BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79872A8F21744044009D0C02 /* Info.plist in Resources */,
+				79872A9421744044009D0C02 /* acupuncture.db in Resources */,
+				79872A6F21744044009D0C02 /* Main.storyboard in Resources */,
+				79872A6B21744044009D0C02 /* Assets.xcassets in Resources */,
+				79872A9321744044009D0C02 /* hardbybook.db in Resources */,
+				79872A9221744044009D0C02 /* newbook.db in Resources */,
+				79872A6E21744044009D0C02 /* LaunchScreen.storyboard in Resources */,
+				79872A97217468C4009D0C02 /* Icon-167.png in Resources */,
+				79872A9121744044009D0C02 /* riddles.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DED4C2A37447821CA19BA0BD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-zhongyizhushou/Pods-zhongyizhushou-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-zhongyizhushou/Pods-zhongyizhushou-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC837DA2858D6A1B07FFF7BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zhongyizhushou-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7916E4712151EE50000F2BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79872A5F21744044009D0C02 /* UIView+Common.m in Sources */,
+				79872A7B21744044009D0C02 /* DCBaseSetViewController.m in Sources */,
+				79872A8121744044009D0C02 /* XueWeiTuListViewController.m in Sources */,
+				79872A8E21744044009D0C02 /* ZYTCaimiyuSecondListCtl.m in Sources */,
+				79872A6721744044009D0C02 /* UIImage+Common.m in Sources */,
+				79872A7021744044009D0C02 /* DCTabBarController.m in Sources */,
+				79872A6C21744044009D0C02 /* AppUntil.m in Sources */,
+				79872A7321744044009D0C02 /* BookContentModel.m in Sources */,
+				79872A5E21744044009D0C02 /* UIView+Frame.m in Sources */,
+				79872A8A21744044009D0C02 /* AnswerCell.m in Sources */,
+				79872A6321744044009D0C02 /* UIImage+DCCircle.m in Sources */,
+				79872A6221744044009D0C02 /* UIBarButtonItem+DCBarButtonItem.m in Sources */,
+				79872A7621744044009D0C02 /* BookListModel.m in Sources */,
+				79872A8521744044009D0C02 /* HeadTableViewCell.m in Sources */,
+				79872A6121744044009D0C02 /* UIImageView+DCExtension.m in Sources */,
+				79872A8821744044009D0C02 /* BookCell.m in Sources */,
+				79872A6521744044009D0C02 /* UIColor+DCColorChange.m in Sources */,
+				79872A8021744044009D0C02 /* LeftAndRightLabelCell.m in Sources */,
+				79872A9021744044009D0C02 /* DCNavigationController.m in Sources */,
+				79872A7D21744044009D0C02 /* ZYTMineCtl.m in Sources */,
+				79872A7921744044009D0C02 /* BookBaseModel.m in Sources */,
+				79872A5D21744044009D0C02 /* UILabel+DCLabel.m in Sources */,
+				79872A5A21744044009D0C02 /* ZYTHardbyBookDataManager.m in Sources */,
+				79872A7521744044009D0C02 /* ZYTItemCountModel.m in Sources */,
+				79872A8421744044009D0C02 /* SignInTableViewCell.m in Sources */,
+				79872A6A21744044009D0C02 /* GQGesVCTransition.m in Sources */,
+				79872A5C21744044009D0C02 /* NSObject+DCNull.m in Sources */,
+				79872A7821744044009D0C02 /* AcupointDetailModel.m in Sources */,
+				79872A6421744044009D0C02 /* NSURL+DCHook.m in Sources */,
+				79872A8721744044009D0C02 /* CaiMiYuListCell.m in Sources */,
+				79872A8B21744044009D0C02 /* ZYTAnswerView.m in Sources */,
+				79872A7221744044009D0C02 /* AcupointListModel.m in Sources */,
+				79872A8221744044009D0C02 /* BookContentViewController.m in Sources */,
+				79872A8C21744044009D0C02 /* ZYTAnswerModel.m in Sources */,
+				79872A6621744044009D0C02 /* UIColor+expanded.m in Sources */,
+				79872A6D21744044009D0C02 /* ViewController.m in Sources */,
+				79872A5B21744044009D0C02 /* ZYTAcupointDataManager.m in Sources */,
+				79872A7A21744044009D0C02 /* AppDelegate.m in Sources */,
+				79872A7F21744044009D0C02 /* ZYTCaimiyuFirstListCtl.m in Sources */,
+				79872A8321744044009D0C02 /* ZYTBooksHomePageCtl.m in Sources */,
+				79872A6821744044009D0C02 /* UILabel+Common.m in Sources */,
+				79872A8921744044009D0C02 /* ZYTOptionsAnswer.m in Sources */,
+				79872A7421744044009D0C02 /* BookMuLuModel.m in Sources */,
+				79872A8D21744044009D0C02 /* XueWeiTuDetailViewController.m in Sources */,
+				79872A5921744044009D0C02 /* ZYTDataBaseManage.m in Sources */,
+				79872A7E21744044009D0C02 /* BookListTableViewController.m in Sources */,
+				79872A8621744044009D0C02 /* ZYTXueweituFirstCtl.m in Sources */,
+				79872A7C21744044009D0C02 /* ZYTCaimiyuDetailViewController.m in Sources */,
+				79872A7721744044009D0C02 /* ZYTItemListModel.m in Sources */,
+				79872A6921744044009D0C02 /* ZYTNewBookDataManager.m in Sources */,
+				79872A7121744044009D0C02 /* main.m in Sources */,
+				79872A6021744044009D0C02 /* UIView+DCExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		79872A0921744044009D0C02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79872A0A21744044009D0C02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		79872A0B21744044009D0C02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79872A0C21744044009D0C02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7916E4892151EE52000F2BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7916E48A2151EE52000F2BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7916E48C2151EE52000F2BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564C465A4F4F045F34EA5801 /* Pods-zhongyizhushou.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = zhongyizhushou/zhongyizhushou.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM6C5S4FLT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = zhongyizhushou/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/zhongyizhushou/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luck.zhongyizhushou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7916E48D2151EE52000F2BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B6D295C34FDCF6975847EBD /* Pods-zhongyizhushou.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = zhongyizhushou/zhongyizhushou.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GM6C5S4FLT;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = zhongyizhushou/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/zhongyizhushou/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.luck.zhongyizhushou;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7916E4702151EE50000F2BD2 /* Build configuration list for PBXProject "zhongyizhushou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7916E4892151EE52000F2BD2 /* Debug */,
+				7916E48A2151EE52000F2BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7916E48B2151EE52000F2BD2 /* Build configuration list for PBXNativeTarget "zhongyizhushou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7916E48C2151EE52000F2BD2 /* Debug */,
+				7916E48D2151EE52000F2BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7916E46D2151EE50000F2BD2 /* Project object */;
+}
