@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		79872A5921744044009D0C02 /* ZYTDataBaseManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729DF21744044009D0C02 /* ZYTDataBaseManage.m */; };
-		79872A5A21744044009D0C02 /* ZYTHardbyBookDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729E021744044009D0C02 /* ZYTHardbyBookDataManager.m */; };
-		79872A5B21744044009D0C02 /* ZYTAcupointDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729E421744044009D0C02 /* ZYTAcupointDataManager.m */; };
+		79872A5921744044009D0C02 /* DatZJTMBHAHAaBaseManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729DF21744044009D0C02 /* DatZJTMBHAHAaBaseManage.m */; };
+		79872A5A21744044009D0C02 /* HardbZJTMBHAHAyBookDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729E021744044009D0C02 /* HardbZJTMBHAHAyBookDataManager.m */; };
+		79872A5B21744044009D0C02 /* AcupointZJTMBHAHADataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729E421744044009D0C02 /* AcupointZJTMBHAHADataManager.m */; };
 		79872A5C21744044009D0C02 /* NSObject+DCNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729E721744044009D0C02 /* NSObject+DCNull.m */; };
 		79872A5D21744044009D0C02 /* UILabel+DCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729E821744044009D0C02 /* UILabel+DCLabel.m */; };
 		79872A5E21744044009D0C02 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729E921744044009D0C02 /* UIView+Frame.m */; };
@@ -23,52 +23,52 @@
 		79872A6621744044009D0C02 /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729FB21744044009D0C02 /* UIColor+expanded.m */; };
 		79872A6721744044009D0C02 /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729FC21744044009D0C02 /* UIImage+Common.m */; };
 		79872A6821744044009D0C02 /* UILabel+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 798729FD21744044009D0C02 /* UILabel+Common.m */; };
-		79872A6921744044009D0C02 /* ZYTNewBookDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A0021744044009D0C02 /* ZYTNewBookDataManager.m */; };
+		79872A6921744044009D0C02 /* NewBoZJTMBHAHAokDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A0021744044009D0C02 /* NewBoZJTMBHAHAokDataManager.m */; };
 		79872A6A21744044009D0C02 /* GQGesVCTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A0221744044009D0C02 /* GQGesVCTransition.m */; };
 		79872A6B21744044009D0C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79872A0521744044009D0C02 /* Assets.xcassets */; };
-		79872A6C21744044009D0C02 /* AppUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A0621744044009D0C02 /* AppUntil.m */; };
+		79872A6C21744044009D0C02 /* AppXGQZMODUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A0621744044009D0C02 /* AppXGQZMODUntil.m */; };
 		79872A6D21744044009D0C02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A0721744044009D0C02 /* ViewController.m */; };
 		79872A6E21744044009D0C02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79872A0921744044009D0C02 /* LaunchScreen.storyboard */; };
 		79872A6F21744044009D0C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79872A0B21744044009D0C02 /* Main.storyboard */; };
-		79872A7021744044009D0C02 /* DCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A0D21744044009D0C02 /* DCTabBarController.m */; };
+		79872A7021744044009D0C02 /* TabZJTMBHAHABarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A0D21744044009D0C02 /* TabZJTMBHAHABarController.m */; };
 		79872A7121744044009D0C02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1021744044009D0C02 /* main.m */; };
-		79872A7221744044009D0C02 /* AcupointListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1321744044009D0C02 /* AcupointListModel.m */; };
-		79872A7321744044009D0C02 /* BookContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1521744044009D0C02 /* BookContentModel.m */; };
-		79872A7421744044009D0C02 /* BookMuLuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1621744044009D0C02 /* BookMuLuModel.m */; };
-		79872A7521744044009D0C02 /* ZYTItemCountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1821744044009D0C02 /* ZYTItemCountModel.m */; };
-		79872A7621744044009D0C02 /* BookListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1921744044009D0C02 /* BookListModel.m */; };
-		79872A7721744044009D0C02 /* ZYTItemListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1A21744044009D0C02 /* ZYTItemListModel.m */; };
-		79872A7821744044009D0C02 /* AcupointDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1C21744044009D0C02 /* AcupointDetailModel.m */; };
-		79872A7921744044009D0C02 /* BookBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2021744044009D0C02 /* BookBaseModel.m */; };
+		79872A7221744044009D0C02 /* AcZJTMBHAHAupointListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1321744044009D0C02 /* AcZJTMBHAHAupointListModel.m */; };
+		79872A7321744044009D0C02 /* BookConteXGQZMODntModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1521744044009D0C02 /* BookConteXGQZMODntModel.m */; };
+		79872A7421744044009D0C02 /* BookXGQZMODMuLuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1621744044009D0C02 /* BookXGQZMODMuLuModel.m */; };
+		79872A7521744044009D0C02 /* IXGQZMODtemCountModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1821744044009D0C02 /* IXGQZMODtemCountModel.m */; };
+		79872A7621744044009D0C02 /* BoXGQZMODokListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1921744044009D0C02 /* BoXGQZMODokListModel.m */; };
+		79872A7721744044009D0C02 /* ItemXGQZMODListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1A21744044009D0C02 /* ItemXGQZMODListModel.m */; };
+		79872A7821744044009D0C02 /* AcupoZJTMBHAHAintDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A1C21744044009D0C02 /* AcupoZJTMBHAHAintDetailModel.m */; };
+		79872A7921744044009D0C02 /* BookXGQZMODBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2021744044009D0C02 /* BookXGQZMODBaseModel.m */; };
 		79872A7A21744044009D0C02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2421744044009D0C02 /* AppDelegate.m */; };
-		79872A7B21744044009D0C02 /* DCBaseSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2521744044009D0C02 /* DCBaseSetViewController.m */; };
-		79872A7C21744044009D0C02 /* ZYTCaimiyuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2921744044009D0C02 /* ZYTCaimiyuDetailViewController.m */; };
-		79872A7D21744044009D0C02 /* ZYTMineCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2A21744044009D0C02 /* ZYTMineCtl.m */; };
-		79872A7E21744044009D0C02 /* BookListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2B21744044009D0C02 /* BookListTableViewController.m */; };
-		79872A7F21744044009D0C02 /* ZYTCaimiyuFirstListCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2F21744044009D0C02 /* ZYTCaimiyuFirstListCtl.m */; };
-		79872A8021744044009D0C02 /* LeftAndRightLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3021744044009D0C02 /* LeftAndRightLabelCell.m */; };
-		79872A8121744044009D0C02 /* XueWeiTuListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3221744044009D0C02 /* XueWeiTuListViewController.m */; };
-		79872A8221744044009D0C02 /* BookContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3421744044009D0C02 /* BookContentViewController.m */; };
-		79872A8321744044009D0C02 /* ZYTBooksHomePageCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3521744044009D0C02 /* ZYTBooksHomePageCtl.m */; };
-		79872A8421744044009D0C02 /* SignInTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3921744044009D0C02 /* SignInTableViewCell.m */; };
-		79872A8521744044009D0C02 /* HeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3A21744044009D0C02 /* HeadTableViewCell.m */; };
-		79872A8621744044009D0C02 /* ZYTXueweituFirstCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3B21744044009D0C02 /* ZYTXueweituFirstCtl.m */; };
-		79872A8721744044009D0C02 /* CaiMiYuListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3D21744044009D0C02 /* CaiMiYuListCell.m */; };
-		79872A8821744044009D0C02 /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3F21744044009D0C02 /* BookCell.m */; };
-		79872A8921744044009D0C02 /* ZYTOptionsAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4121744044009D0C02 /* ZYTOptionsAnswer.m */; };
-		79872A8A21744044009D0C02 /* AnswerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4221744044009D0C02 /* AnswerCell.m */; };
-		79872A8B21744044009D0C02 /* ZYTAnswerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4421744044009D0C02 /* ZYTAnswerView.m */; };
-		79872A8C21744044009D0C02 /* ZYTAnswerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4721744044009D0C02 /* ZYTAnswerModel.m */; };
-		79872A8D21744044009D0C02 /* XueWeiTuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4A21744044009D0C02 /* XueWeiTuDetailViewController.m */; };
-		79872A8E21744044009D0C02 /* ZYTCaimiyuSecondListCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4F21744044009D0C02 /* ZYTCaimiyuSecondListCtl.m */; };
+		79872A7B21744044009D0C02 /* ZJTMBHAHABaseSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2521744044009D0C02 /* ZJTMBHAHABaseSetViewController.m */; };
+		79872A7C21744044009D0C02 /* ZJTMBHAHACaimiyuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2921744044009D0C02 /* ZJTMBHAHACaimiyuDetailViewController.m */; };
+		79872A7D21744044009D0C02 /* MineZJTMBHAHACtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2A21744044009D0C02 /* MineZJTMBHAHACtl.m */; };
+		79872A7E21744044009D0C02 /* BookListTaZJTMBHAHAbleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2B21744044009D0C02 /* BookListTaZJTMBHAHAbleViewController.m */; };
+		79872A7F21744044009D0C02 /* CaiZJTMBHAHAmiyuFirstListCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A2F21744044009D0C02 /* CaiZJTMBHAHAmiyuFirstListCtl.m */; };
+		79872A8021744044009D0C02 /* LeftAndHWLLOCCRightLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3021744044009D0C02 /* LeftAndHWLLOCCRightLabelCell.m */; };
+		79872A8121744044009D0C02 /* XuZJTMBHAHAeWeiTuListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3221744044009D0C02 /* XuZJTMBHAHAeWeiTuListViewController.m */; };
+		79872A8221744044009D0C02 /* BookCoZJTMBHAHAntentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3421744044009D0C02 /* BookCoZJTMBHAHAntentViewController.m */; };
+		79872A8321744044009D0C02 /* ZYTBooksHZJTMBHAHAomePageCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3521744044009D0C02 /* ZYTBooksHZJTMBHAHAomePageCtl.m */; };
+		79872A8421744044009D0C02 /* SignInTaHWLLOCCbleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3921744044009D0C02 /* SignInTaHWLLOCCbleViewCell.m */; };
+		79872A8521744044009D0C02 /* HeadTHWLLOCCableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3A21744044009D0C02 /* HeadTHWLLOCCableViewCell.m */; };
+		79872A8621744044009D0C02 /* XueweitZJTMBHAHAuFirstCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3B21744044009D0C02 /* XueweitZJTMBHAHAuFirstCtl.m */; };
+		79872A8721744044009D0C02 /* CaiMHWLLOCCiYuListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3D21744044009D0C02 /* CaiMHWLLOCCiYuListCell.m */; };
+		79872A8821744044009D0C02 /* BoHWLLOCCokCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A3F21744044009D0C02 /* BoHWLLOCCokCell.m */; };
+		79872A8921744044009D0C02 /* OptHWLLOCCionsAnswer.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4121744044009D0C02 /* OptHWLLOCCionsAnswer.m */; };
+		79872A8A21744044009D0C02 /* AnsHWLLOCCwerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4221744044009D0C02 /* AnsHWLLOCCwerCell.m */; };
+		79872A8B21744044009D0C02 /* AnswHWLLOCCerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4421744044009D0C02 /* AnswHWLLOCCerView.m */; };
+		79872A8C21744044009D0C02 /* AnsHWLLOCCwerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4721744044009D0C02 /* AnsHWLLOCCwerModel.m */; };
+		79872A8D21744044009D0C02 /* XueWeiTZJTMBHAHAuDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4A21744044009D0C02 /* XueWeiTZJTMBHAHAuDetailViewController.m */; };
+		79872A8E21744044009D0C02 /* CaimiyZJTMBHAHAuSecondListCtl.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A4F21744044009D0C02 /* CaimiyZJTMBHAHAuSecondListCtl.m */; };
 		79872A8F21744044009D0C02 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79872A5021744044009D0C02 /* Info.plist */; };
-		79872A9021744044009D0C02 /* DCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A5121744044009D0C02 /* DCNavigationController.m */; };
+		79872A9021744044009D0C02 /* NaviZJTMBHAHAgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872A5121744044009D0C02 /* NaviZJTMBHAHAgationController.m */; };
 		79872A9121744044009D0C02 /* riddles.db in Resources */ = {isa = PBXBuildFile; fileRef = 79872A5521744044009D0C02 /* riddles.db */; };
 		79872A9221744044009D0C02 /* newbook.db in Resources */ = {isa = PBXBuildFile; fileRef = 79872A5621744044009D0C02 /* newbook.db */; };
 		79872A9321744044009D0C02 /* hardbybook.db in Resources */ = {isa = PBXBuildFile; fileRef = 79872A5721744044009D0C02 /* hardbybook.db */; };
 		79872A9421744044009D0C02 /* acupuncture.db in Resources */ = {isa = PBXBuildFile; fileRef = 79872A5821744044009D0C02 /* acupuncture.db */; };
 		79872A97217468C4009D0C02 /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = 79872A96217468C3009D0C02 /* Icon-167.png */; };
-		79872AA3217479E9009D0C02 /* ControlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872AA2217479E8009D0C02 /* ControlManager.m */; };
+		79872AA3217479E9009D0C02 /* ContXGQZMODrolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872AA2217479E8009D0C02 /* ContXGQZMODrolManager.m */; };
 		79872AAA21747DE4009D0C02 /* LUCKBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872AA621747DE4009D0C02 /* LUCKBottomView.m */; };
 		79872AAB21747DE4009D0C02 /* ZYTTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872AA921747DE4009D0C02 /* ZYTTestViewController.m */; };
 		79872AAE21747E26009D0C02 /* ZYTUserzhengceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79872AAC21747E25009D0C02 /* ZYTUserzhengceViewController.m */; };
@@ -79,11 +79,11 @@
 		4B1CC6DBD87DD308BB0399AF /* libPods-zhongyizhushou.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-zhongyizhushou.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		564C465A4F4F045F34EA5801 /* Pods-zhongyizhushou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhongyizhushou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-zhongyizhushou/Pods-zhongyizhushou.debug.xcconfig"; sourceTree = "<group>"; };
 		7916E4752151EE50000F2BD2 /* zhongyizhushou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zhongyizhushou.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		798729DF21744044009D0C02 /* ZYTDataBaseManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTDataBaseManage.m; sourceTree = "<group>"; };
-		798729E021744044009D0C02 /* ZYTHardbyBookDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTHardbyBookDataManager.m; sourceTree = "<group>"; };
-		798729E121744044009D0C02 /* DCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCTabBarController.h; sourceTree = "<group>"; };
+		798729DF21744044009D0C02 /* DatZJTMBHAHAaBaseManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatZJTMBHAHAaBaseManage.m; sourceTree = "<group>"; };
+		798729E021744044009D0C02 /* HardbZJTMBHAHAyBookDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HardbZJTMBHAHAyBookDataManager.m; sourceTree = "<group>"; };
+		798729E121744044009D0C02 /* TabZJTMBHAHABarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabZJTMBHAHABarController.h; sourceTree = "<group>"; };
 		798729E321744044009D0C02 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		798729E421744044009D0C02 /* ZYTAcupointDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTAcupointDataManager.m; sourceTree = "<group>"; };
+		798729E421744044009D0C02 /* AcupointZJTMBHAHADataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcupointZJTMBHAHADataManager.m; sourceTree = "<group>"; };
 		798729E621744044009D0C02 /* NSURL+DCHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+DCHook.h"; sourceTree = "<group>"; };
 		798729E721744044009D0C02 /* NSObject+DCNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DCNull.m"; sourceTree = "<group>"; };
 		798729E821744044009D0C02 /* UILabel+DCLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DCLabel.m"; sourceTree = "<group>"; };
@@ -110,92 +110,92 @@
 		798729FD21744044009D0C02 /* UILabel+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Common.m"; sourceTree = "<group>"; };
 		798729FE21744044009D0C02 /* UIImage+DCCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+DCCircle.h"; sourceTree = "<group>"; };
 		798729FF21744044009D0C02 /* UIBarButtonItem+DCBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+DCBarButtonItem.h"; sourceTree = "<group>"; };
-		79872A0021744044009D0C02 /* ZYTNewBookDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTNewBookDataManager.m; sourceTree = "<group>"; };
+		79872A0021744044009D0C02 /* NewBoZJTMBHAHAokDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewBoZJTMBHAHAokDataManager.m; sourceTree = "<group>"; };
 		79872A0221744044009D0C02 /* GQGesVCTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQGesVCTransition.m; sourceTree = "<group>"; };
 		79872A0321744044009D0C02 /* GQGesVCTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQGesVCTransition.h; sourceTree = "<group>"; };
-		79872A0421744044009D0C02 /* DCBaseSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBaseSetViewController.h; sourceTree = "<group>"; };
+		79872A0421744044009D0C02 /* ZJTMBHAHABaseSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTMBHAHABaseSetViewController.h; sourceTree = "<group>"; };
 		79872A0521744044009D0C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		79872A0621744044009D0C02 /* AppUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppUntil.m; sourceTree = "<group>"; };
+		79872A0621744044009D0C02 /* AppXGQZMODUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppXGQZMODUntil.m; sourceTree = "<group>"; };
 		79872A0721744044009D0C02 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		79872A0821744044009D0C02 /* DCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCNavigationController.h; sourceTree = "<group>"; };
+		79872A0821744044009D0C02 /* NaviZJTMBHAHAgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviZJTMBHAHAgationController.h; sourceTree = "<group>"; };
 		79872A0A21744044009D0C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79872A0C21744044009D0C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		79872A0D21744044009D0C02 /* DCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCTabBarController.m; sourceTree = "<group>"; };
-		79872A0E21744044009D0C02 /* ZYTHardbyBookDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTHardbyBookDataManager.h; sourceTree = "<group>"; };
-		79872A0F21744044009D0C02 /* ZYTDataBaseManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTDataBaseManage.h; sourceTree = "<group>"; };
+		79872A0D21744044009D0C02 /* TabZJTMBHAHABarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabZJTMBHAHABarController.m; sourceTree = "<group>"; };
+		79872A0E21744044009D0C02 /* HardbZJTMBHAHAyBookDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HardbZJTMBHAHAyBookDataManager.h; sourceTree = "<group>"; };
+		79872A0F21744044009D0C02 /* DatZJTMBHAHAaBaseManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatZJTMBHAHAaBaseManage.h; sourceTree = "<group>"; };
 		79872A1021744044009D0C02 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79872A1121744044009D0C02 /* Macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
-		79872A1321744044009D0C02 /* AcupointListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcupointListModel.m; sourceTree = "<group>"; };
-		79872A1421744044009D0C02 /* AcupointDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcupointDetailModel.h; sourceTree = "<group>"; };
-		79872A1521744044009D0C02 /* BookContentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookContentModel.m; sourceTree = "<group>"; };
-		79872A1621744044009D0C02 /* BookMuLuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookMuLuModel.m; sourceTree = "<group>"; };
-		79872A1721744044009D0C02 /* BookBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookBaseModel.h; sourceTree = "<group>"; };
-		79872A1821744044009D0C02 /* ZYTItemCountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTItemCountModel.m; sourceTree = "<group>"; };
-		79872A1921744044009D0C02 /* BookListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListModel.m; sourceTree = "<group>"; };
-		79872A1A21744044009D0C02 /* ZYTItemListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTItemListModel.m; sourceTree = "<group>"; };
-		79872A1B21744044009D0C02 /* BookContentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookContentModel.h; sourceTree = "<group>"; };
-		79872A1C21744044009D0C02 /* AcupointDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcupointDetailModel.m; sourceTree = "<group>"; };
-		79872A1D21744044009D0C02 /* AcupointListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcupointListModel.h; sourceTree = "<group>"; };
-		79872A1E21744044009D0C02 /* BookListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListModel.h; sourceTree = "<group>"; };
-		79872A1F21744044009D0C02 /* ZYTItemListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTItemListModel.h; sourceTree = "<group>"; };
-		79872A2021744044009D0C02 /* BookBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookBaseModel.m; sourceTree = "<group>"; };
-		79872A2121744044009D0C02 /* ZYTItemCountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTItemCountModel.h; sourceTree = "<group>"; };
-		79872A2221744044009D0C02 /* BookMuLuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookMuLuModel.h; sourceTree = "<group>"; };
-		79872A2321744044009D0C02 /* ZYTAcupointDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTAcupointDataManager.h; sourceTree = "<group>"; };
+		79872A1321744044009D0C02 /* AcZJTMBHAHAupointListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcZJTMBHAHAupointListModel.m; sourceTree = "<group>"; };
+		79872A1421744044009D0C02 /* AcupoZJTMBHAHAintDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcupoZJTMBHAHAintDetailModel.h; sourceTree = "<group>"; };
+		79872A1521744044009D0C02 /* BookConteXGQZMODntModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookConteXGQZMODntModel.m; sourceTree = "<group>"; };
+		79872A1621744044009D0C02 /* BookXGQZMODMuLuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookXGQZMODMuLuModel.m; sourceTree = "<group>"; };
+		79872A1721744044009D0C02 /* BookXGQZMODBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookXGQZMODBaseModel.h; sourceTree = "<group>"; };
+		79872A1821744044009D0C02 /* IXGQZMODtemCountModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IXGQZMODtemCountModel.m; sourceTree = "<group>"; };
+		79872A1921744044009D0C02 /* BoXGQZMODokListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoXGQZMODokListModel.m; sourceTree = "<group>"; };
+		79872A1A21744044009D0C02 /* ItemXGQZMODListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemXGQZMODListModel.m; sourceTree = "<group>"; };
+		79872A1B21744044009D0C02 /* BookConteXGQZMODntModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookConteXGQZMODntModel.h; sourceTree = "<group>"; };
+		79872A1C21744044009D0C02 /* AcupoZJTMBHAHAintDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcupoZJTMBHAHAintDetailModel.m; sourceTree = "<group>"; };
+		79872A1D21744044009D0C02 /* AcZJTMBHAHAupointListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcZJTMBHAHAupointListModel.h; sourceTree = "<group>"; };
+		79872A1E21744044009D0C02 /* BoXGQZMODokListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoXGQZMODokListModel.h; sourceTree = "<group>"; };
+		79872A1F21744044009D0C02 /* ItemXGQZMODListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemXGQZMODListModel.h; sourceTree = "<group>"; };
+		79872A2021744044009D0C02 /* BookXGQZMODBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookXGQZMODBaseModel.m; sourceTree = "<group>"; };
+		79872A2121744044009D0C02 /* IXGQZMODtemCountModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IXGQZMODtemCountModel.h; sourceTree = "<group>"; };
+		79872A2221744044009D0C02 /* BookXGQZMODMuLuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookXGQZMODMuLuModel.h; sourceTree = "<group>"; };
+		79872A2321744044009D0C02 /* AcupointZJTMBHAHADataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcupointZJTMBHAHADataManager.h; sourceTree = "<group>"; };
 		79872A2421744044009D0C02 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		79872A2521744044009D0C02 /* DCBaseSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBaseSetViewController.m; sourceTree = "<group>"; };
-		79872A2621744044009D0C02 /* ZYTNewBookDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTNewBookDataManager.h; sourceTree = "<group>"; };
+		79872A2521744044009D0C02 /* ZJTMBHAHABaseSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTMBHAHABaseSetViewController.m; sourceTree = "<group>"; };
+		79872A2621744044009D0C02 /* NewBoZJTMBHAHAokDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewBoZJTMBHAHAokDataManager.h; sourceTree = "<group>"; };
 		79872A2721744044009D0C02 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		79872A2921744044009D0C02 /* ZYTCaimiyuDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTCaimiyuDetailViewController.m; sourceTree = "<group>"; };
-		79872A2A21744044009D0C02 /* ZYTMineCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTMineCtl.m; sourceTree = "<group>"; };
-		79872A2B21744044009D0C02 /* BookListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListTableViewController.m; sourceTree = "<group>"; };
-		79872A2C21744044009D0C02 /* ZYTXueweituFirstCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTXueweituFirstCtl.h; sourceTree = "<group>"; };
-		79872A2D21744044009D0C02 /* HeadTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadTableViewCell.h; sourceTree = "<group>"; };
-		79872A2E21744044009D0C02 /* SignInTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInTableViewCell.h; sourceTree = "<group>"; };
-		79872A2F21744044009D0C02 /* ZYTCaimiyuFirstListCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTCaimiyuFirstListCtl.m; sourceTree = "<group>"; };
-		79872A3021744044009D0C02 /* LeftAndRightLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftAndRightLabelCell.m; sourceTree = "<group>"; };
-		79872A3121744044009D0C02 /* XueWeiTuDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XueWeiTuDetailViewController.h; sourceTree = "<group>"; };
-		79872A3221744044009D0C02 /* XueWeiTuListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XueWeiTuListViewController.m; sourceTree = "<group>"; };
-		79872A3321744044009D0C02 /* ZYTCaimiyuSecondListCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTCaimiyuSecondListCtl.h; sourceTree = "<group>"; };
-		79872A3421744044009D0C02 /* BookContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookContentViewController.m; sourceTree = "<group>"; };
-		79872A3521744044009D0C02 /* ZYTBooksHomePageCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTBooksHomePageCtl.m; sourceTree = "<group>"; };
-		79872A3621744044009D0C02 /* BookListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListTableViewController.h; sourceTree = "<group>"; };
-		79872A3721744044009D0C02 /* ZYTMineCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTMineCtl.h; sourceTree = "<group>"; };
-		79872A3821744044009D0C02 /* ZYTCaimiyuDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTCaimiyuDetailViewController.h; sourceTree = "<group>"; };
-		79872A3921744044009D0C02 /* SignInTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInTableViewCell.m; sourceTree = "<group>"; };
-		79872A3A21744044009D0C02 /* HeadTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadTableViewCell.m; sourceTree = "<group>"; };
-		79872A3B21744044009D0C02 /* ZYTXueweituFirstCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTXueweituFirstCtl.m; sourceTree = "<group>"; };
-		79872A3D21744044009D0C02 /* CaiMiYuListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaiMiYuListCell.m; sourceTree = "<group>"; };
-		79872A3E21744044009D0C02 /* ZYTAnswerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTAnswerView.h; sourceTree = "<group>"; };
-		79872A3F21744044009D0C02 /* BookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCell.m; sourceTree = "<group>"; };
-		79872A4021744044009D0C02 /* ZYTAnswerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTAnswerModel.h; sourceTree = "<group>"; };
-		79872A4121744044009D0C02 /* ZYTOptionsAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTOptionsAnswer.m; sourceTree = "<group>"; };
-		79872A4221744044009D0C02 /* AnswerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerCell.m; sourceTree = "<group>"; };
-		79872A4321744044009D0C02 /* BookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCell.h; sourceTree = "<group>"; };
-		79872A4421744044009D0C02 /* ZYTAnswerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTAnswerView.m; sourceTree = "<group>"; };
-		79872A4521744044009D0C02 /* CaiMiYuListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaiMiYuListCell.h; sourceTree = "<group>"; };
-		79872A4621744044009D0C02 /* ZYTOptionsAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTOptionsAnswer.h; sourceTree = "<group>"; };
-		79872A4721744044009D0C02 /* ZYTAnswerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTAnswerModel.m; sourceTree = "<group>"; };
-		79872A4821744044009D0C02 /* AnswerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerCell.h; sourceTree = "<group>"; };
-		79872A4921744044009D0C02 /* XueWeiTuListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XueWeiTuListViewController.h; sourceTree = "<group>"; };
-		79872A4A21744044009D0C02 /* XueWeiTuDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XueWeiTuDetailViewController.m; sourceTree = "<group>"; };
-		79872A4B21744044009D0C02 /* LeftAndRightLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftAndRightLabelCell.h; sourceTree = "<group>"; };
-		79872A4C21744044009D0C02 /* ZYTCaimiyuFirstListCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTCaimiyuFirstListCtl.h; sourceTree = "<group>"; };
-		79872A4D21744044009D0C02 /* ZYTBooksHomePageCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTBooksHomePageCtl.h; sourceTree = "<group>"; };
-		79872A4E21744044009D0C02 /* BookContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookContentViewController.h; sourceTree = "<group>"; };
-		79872A4F21744044009D0C02 /* ZYTCaimiyuSecondListCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTCaimiyuSecondListCtl.m; sourceTree = "<group>"; };
+		79872A2921744044009D0C02 /* ZJTMBHAHACaimiyuDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTMBHAHACaimiyuDetailViewController.m; sourceTree = "<group>"; };
+		79872A2A21744044009D0C02 /* MineZJTMBHAHACtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineZJTMBHAHACtl.m; sourceTree = "<group>"; };
+		79872A2B21744044009D0C02 /* BookListTaZJTMBHAHAbleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListTaZJTMBHAHAbleViewController.m; sourceTree = "<group>"; };
+		79872A2C21744044009D0C02 /* XueweitZJTMBHAHAuFirstCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XueweitZJTMBHAHAuFirstCtl.h; sourceTree = "<group>"; };
+		79872A2D21744044009D0C02 /* HeadTHWLLOCCableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadTHWLLOCCableViewCell.h; sourceTree = "<group>"; };
+		79872A2E21744044009D0C02 /* SignInTaHWLLOCCbleViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInTaHWLLOCCbleViewCell.h; sourceTree = "<group>"; };
+		79872A2F21744044009D0C02 /* CaiZJTMBHAHAmiyuFirstListCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaiZJTMBHAHAmiyuFirstListCtl.m; sourceTree = "<group>"; };
+		79872A3021744044009D0C02 /* LeftAndHWLLOCCRightLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftAndHWLLOCCRightLabelCell.m; sourceTree = "<group>"; };
+		79872A3121744044009D0C02 /* XueWeiTZJTMBHAHAuDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XueWeiTZJTMBHAHAuDetailViewController.h; sourceTree = "<group>"; };
+		79872A3221744044009D0C02 /* XuZJTMBHAHAeWeiTuListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XuZJTMBHAHAeWeiTuListViewController.m; sourceTree = "<group>"; };
+		79872A3321744044009D0C02 /* CaimiyZJTMBHAHAuSecondListCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaimiyZJTMBHAHAuSecondListCtl.h; sourceTree = "<group>"; };
+		79872A3421744044009D0C02 /* BookCoZJTMBHAHAntentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCoZJTMBHAHAntentViewController.m; sourceTree = "<group>"; };
+		79872A3521744044009D0C02 /* ZYTBooksHZJTMBHAHAomePageCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTBooksHZJTMBHAHAomePageCtl.m; sourceTree = "<group>"; };
+		79872A3621744044009D0C02 /* BookListTaZJTMBHAHAbleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListTaZJTMBHAHAbleViewController.h; sourceTree = "<group>"; };
+		79872A3721744044009D0C02 /* MineZJTMBHAHACtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineZJTMBHAHACtl.h; sourceTree = "<group>"; };
+		79872A3821744044009D0C02 /* ZJTMBHAHACaimiyuDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTMBHAHACaimiyuDetailViewController.h; sourceTree = "<group>"; };
+		79872A3921744044009D0C02 /* SignInTaHWLLOCCbleViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInTaHWLLOCCbleViewCell.m; sourceTree = "<group>"; };
+		79872A3A21744044009D0C02 /* HeadTHWLLOCCableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadTHWLLOCCableViewCell.m; sourceTree = "<group>"; };
+		79872A3B21744044009D0C02 /* XueweitZJTMBHAHAuFirstCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XueweitZJTMBHAHAuFirstCtl.m; sourceTree = "<group>"; };
+		79872A3D21744044009D0C02 /* CaiMHWLLOCCiYuListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaiMHWLLOCCiYuListCell.m; sourceTree = "<group>"; };
+		79872A3E21744044009D0C02 /* AnswHWLLOCCerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswHWLLOCCerView.h; sourceTree = "<group>"; };
+		79872A3F21744044009D0C02 /* BoHWLLOCCokCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoHWLLOCCokCell.m; sourceTree = "<group>"; };
+		79872A4021744044009D0C02 /* AnsHWLLOCCwerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnsHWLLOCCwerModel.h; sourceTree = "<group>"; };
+		79872A4121744044009D0C02 /* OptHWLLOCCionsAnswer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptHWLLOCCionsAnswer.m; sourceTree = "<group>"; };
+		79872A4221744044009D0C02 /* AnsHWLLOCCwerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnsHWLLOCCwerCell.m; sourceTree = "<group>"; };
+		79872A4321744044009D0C02 /* BoHWLLOCCokCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoHWLLOCCokCell.h; sourceTree = "<group>"; };
+		79872A4421744044009D0C02 /* AnswHWLLOCCerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswHWLLOCCerView.m; sourceTree = "<group>"; };
+		79872A4521744044009D0C02 /* CaiMHWLLOCCiYuListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaiMHWLLOCCiYuListCell.h; sourceTree = "<group>"; };
+		79872A4621744044009D0C02 /* OptHWLLOCCionsAnswer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptHWLLOCCionsAnswer.h; sourceTree = "<group>"; };
+		79872A4721744044009D0C02 /* AnsHWLLOCCwerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnsHWLLOCCwerModel.m; sourceTree = "<group>"; };
+		79872A4821744044009D0C02 /* AnsHWLLOCCwerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnsHWLLOCCwerCell.h; sourceTree = "<group>"; };
+		79872A4921744044009D0C02 /* XuZJTMBHAHAeWeiTuListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XuZJTMBHAHAeWeiTuListViewController.h; sourceTree = "<group>"; };
+		79872A4A21744044009D0C02 /* XueWeiTZJTMBHAHAuDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XueWeiTZJTMBHAHAuDetailViewController.m; sourceTree = "<group>"; };
+		79872A4B21744044009D0C02 /* LeftAndHWLLOCCRightLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftAndHWLLOCCRightLabelCell.h; sourceTree = "<group>"; };
+		79872A4C21744044009D0C02 /* CaiZJTMBHAHAmiyuFirstListCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaiZJTMBHAHAmiyuFirstListCtl.h; sourceTree = "<group>"; };
+		79872A4D21744044009D0C02 /* ZYTBooksHZJTMBHAHAomePageCtl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTBooksHZJTMBHAHAomePageCtl.h; sourceTree = "<group>"; };
+		79872A4E21744044009D0C02 /* BookCoZJTMBHAHAntentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCoZJTMBHAHAntentViewController.h; sourceTree = "<group>"; };
+		79872A4F21744044009D0C02 /* CaimiyZJTMBHAHAuSecondListCtl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaimiyZJTMBHAHAuSecondListCtl.m; sourceTree = "<group>"; };
 		79872A5021744044009D0C02 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79872A5121744044009D0C02 /* DCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCNavigationController.m; sourceTree = "<group>"; };
+		79872A5121744044009D0C02 /* NaviZJTMBHAHAgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviZJTMBHAHAgationController.m; sourceTree = "<group>"; };
 		79872A5221744044009D0C02 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		79872A5321744044009D0C02 /* AppUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUntil.h; sourceTree = "<group>"; };
+		79872A5321744044009D0C02 /* AppXGQZMODUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppXGQZMODUntil.h; sourceTree = "<group>"; };
 		79872A5521744044009D0C02 /* riddles.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = riddles.db; sourceTree = "<group>"; };
 		79872A5621744044009D0C02 /* newbook.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = newbook.db; sourceTree = "<group>"; };
 		79872A5721744044009D0C02 /* hardbybook.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = hardbybook.db; sourceTree = "<group>"; };
 		79872A5821744044009D0C02 /* acupuncture.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = acupuncture.db; sourceTree = "<group>"; };
 		79872A95217441A9009D0C02 /* zhongyizhushou.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = zhongyizhushou.entitlements; sourceTree = "<group>"; };
 		79872A96217468C3009D0C02 /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-167.png"; sourceTree = "<group>"; };
-		79872AA1217479E8009D0C02 /* ControlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlManager.h; sourceTree = "<group>"; };
-		79872AA2217479E8009D0C02 /* ControlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControlManager.m; sourceTree = "<group>"; };
+		79872AA1217479E8009D0C02 /* ContXGQZMODrolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContXGQZMODrolManager.h; sourceTree = "<group>"; };
+		79872AA2217479E8009D0C02 /* ContXGQZMODrolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContXGQZMODrolManager.m; sourceTree = "<group>"; };
 		79872AA621747DE4009D0C02 /* LUCKBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUCKBottomView.m; sourceTree = "<group>"; };
 		79872AA721747DE4009D0C02 /* ZYTTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTTestViewController.h; sourceTree = "<group>"; };
 		79872AA821747DE4009D0C02 /* LUCKBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUCKBottomView.h; sourceTree = "<group>"; };
@@ -304,22 +304,22 @@
 		79872A1221744044009D0C02 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				79872A1321744044009D0C02 /* AcupointListModel.m */,
-				79872A1421744044009D0C02 /* AcupointDetailModel.h */,
-				79872A1521744044009D0C02 /* BookContentModel.m */,
-				79872A1621744044009D0C02 /* BookMuLuModel.m */,
-				79872A1721744044009D0C02 /* BookBaseModel.h */,
-				79872A1821744044009D0C02 /* ZYTItemCountModel.m */,
-				79872A1921744044009D0C02 /* BookListModel.m */,
-				79872A1A21744044009D0C02 /* ZYTItemListModel.m */,
-				79872A1B21744044009D0C02 /* BookContentModel.h */,
-				79872A1C21744044009D0C02 /* AcupointDetailModel.m */,
-				79872A1D21744044009D0C02 /* AcupointListModel.h */,
-				79872A1E21744044009D0C02 /* BookListModel.h */,
-				79872A1F21744044009D0C02 /* ZYTItemListModel.h */,
-				79872A2021744044009D0C02 /* BookBaseModel.m */,
-				79872A2121744044009D0C02 /* ZYTItemCountModel.h */,
-				79872A2221744044009D0C02 /* BookMuLuModel.h */,
+				79872A1321744044009D0C02 /* AcZJTMBHAHAupointListModel.m */,
+				79872A1421744044009D0C02 /* AcupoZJTMBHAHAintDetailModel.h */,
+				79872A1521744044009D0C02 /* BookConteXGQZMODntModel.m */,
+				79872A1621744044009D0C02 /* BookXGQZMODMuLuModel.m */,
+				79872A1721744044009D0C02 /* BookXGQZMODBaseModel.h */,
+				79872A2021744044009D0C02 /* BookXGQZMODBaseModel.m */,
+				79872A1821744044009D0C02 /* IXGQZMODtemCountModel.m */,
+				79872A1921744044009D0C02 /* BoXGQZMODokListModel.m */,
+				79872A1A21744044009D0C02 /* ItemXGQZMODListModel.m */,
+				79872A1B21744044009D0C02 /* BookConteXGQZMODntModel.h */,
+				79872A1C21744044009D0C02 /* AcupoZJTMBHAHAintDetailModel.m */,
+				79872A1D21744044009D0C02 /* AcZJTMBHAHAupointListModel.h */,
+				79872A1E21744044009D0C02 /* BoXGQZMODokListModel.h */,
+				79872A1F21744044009D0C02 /* ItemXGQZMODListModel.h */,
+				79872A2121744044009D0C02 /* IXGQZMODtemCountModel.h */,
+				79872A2221744044009D0C02 /* BookXGQZMODMuLuModel.h */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -335,8 +335,8 @@
 				79872A9B21746B63009D0C02 /* Base */,
 				79872A0721744044009D0C02 /* ViewController.m */,
 				79872A5221744044009D0C02 /* ViewController.h */,
-				79872AA1217479E8009D0C02 /* ControlManager.h */,
-				79872AA2217479E8009D0C02 /* ControlManager.m */,
+				79872AA1217479E8009D0C02 /* ContXGQZMODrolManager.h */,
+				79872AA2217479E8009D0C02 /* ContXGQZMODrolManager.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -344,24 +344,24 @@
 		79872A3C21744044009D0C02 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				79872A2D21744044009D0C02 /* HeadTableViewCell.h */,
-				79872A2E21744044009D0C02 /* SignInTableViewCell.h */,
-				79872A3021744044009D0C02 /* LeftAndRightLabelCell.m */,
-				79872A3921744044009D0C02 /* SignInTableViewCell.m */,
-				79872A3A21744044009D0C02 /* HeadTableViewCell.m */,
-				79872A4B21744044009D0C02 /* LeftAndRightLabelCell.h */,
-				79872A3D21744044009D0C02 /* CaiMiYuListCell.m */,
-				79872A3E21744044009D0C02 /* ZYTAnswerView.h */,
-				79872A3F21744044009D0C02 /* BookCell.m */,
-				79872A4021744044009D0C02 /* ZYTAnswerModel.h */,
-				79872A4121744044009D0C02 /* ZYTOptionsAnswer.m */,
-				79872A4221744044009D0C02 /* AnswerCell.m */,
-				79872A4321744044009D0C02 /* BookCell.h */,
-				79872A4421744044009D0C02 /* ZYTAnswerView.m */,
-				79872A4521744044009D0C02 /* CaiMiYuListCell.h */,
-				79872A4621744044009D0C02 /* ZYTOptionsAnswer.h */,
-				79872A4721744044009D0C02 /* ZYTAnswerModel.m */,
-				79872A4821744044009D0C02 /* AnswerCell.h */,
+				79872A2D21744044009D0C02 /* HeadTHWLLOCCableViewCell.h */,
+				79872A2E21744044009D0C02 /* SignInTaHWLLOCCbleViewCell.h */,
+				79872A3021744044009D0C02 /* LeftAndHWLLOCCRightLabelCell.m */,
+				79872A3921744044009D0C02 /* SignInTaHWLLOCCbleViewCell.m */,
+				79872A3A21744044009D0C02 /* HeadTHWLLOCCableViewCell.m */,
+				79872A4B21744044009D0C02 /* LeftAndHWLLOCCRightLabelCell.h */,
+				79872A3D21744044009D0C02 /* CaiMHWLLOCCiYuListCell.m */,
+				79872A3E21744044009D0C02 /* AnswHWLLOCCerView.h */,
+				79872A3F21744044009D0C02 /* BoHWLLOCCokCell.m */,
+				79872A4021744044009D0C02 /* AnsHWLLOCCwerModel.h */,
+				79872A4121744044009D0C02 /* OptHWLLOCCionsAnswer.m */,
+				79872A4221744044009D0C02 /* AnsHWLLOCCwerCell.m */,
+				79872A4321744044009D0C02 /* BoHWLLOCCokCell.h */,
+				79872A4421744044009D0C02 /* AnswHWLLOCCerView.m */,
+				79872A4521744044009D0C02 /* CaiMHWLLOCCiYuListCell.h */,
+				79872A4621744044009D0C02 /* OptHWLLOCCionsAnswer.h */,
+				79872A4721744044009D0C02 /* AnsHWLLOCCwerModel.m */,
+				79872A4821744044009D0C02 /* AnsHWLLOCCwerCell.h */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -380,14 +380,14 @@
 		79872A9821746A73009D0C02 /* manager */ = {
 			isa = PBXGroup;
 			children = (
-				798729DF21744044009D0C02 /* ZYTDataBaseManage.m */,
-				79872A0021744044009D0C02 /* ZYTNewBookDataManager.m */,
-				79872A0E21744044009D0C02 /* ZYTHardbyBookDataManager.h */,
-				79872A0F21744044009D0C02 /* ZYTDataBaseManage.h */,
-				79872A2321744044009D0C02 /* ZYTAcupointDataManager.h */,
-				79872A2621744044009D0C02 /* ZYTNewBookDataManager.h */,
-				798729E021744044009D0C02 /* ZYTHardbyBookDataManager.m */,
-				798729E421744044009D0C02 /* ZYTAcupointDataManager.m */,
+				798729DF21744044009D0C02 /* DatZJTMBHAHAaBaseManage.m */,
+				79872A0021744044009D0C02 /* NewBoZJTMBHAHAokDataManager.m */,
+				79872A0E21744044009D0C02 /* HardbZJTMBHAHAyBookDataManager.h */,
+				79872A0F21744044009D0C02 /* DatZJTMBHAHAaBaseManage.h */,
+				79872A2321744044009D0C02 /* AcupointZJTMBHAHADataManager.h */,
+				79872A2621744044009D0C02 /* NewBoZJTMBHAHAokDataManager.h */,
+				798729E021744044009D0C02 /* HardbZJTMBHAHAyBookDataManager.m */,
+				798729E421744044009D0C02 /* AcupointZJTMBHAHADataManager.m */,
 			);
 			path = manager;
 			sourceTree = "<group>";
@@ -404,8 +404,8 @@
 		79872A9A21746AC4009D0C02 /* Until */ = {
 			isa = PBXGroup;
 			children = (
-				79872A0621744044009D0C02 /* AppUntil.m */,
-				79872A5321744044009D0C02 /* AppUntil.h */,
+				79872A0621744044009D0C02 /* AppXGQZMODUntil.m */,
+				79872A5321744044009D0C02 /* AppXGQZMODUntil.h */,
 			);
 			path = Until;
 			sourceTree = "<group>";
@@ -414,12 +414,12 @@
 			isa = PBXGroup;
 			children = (
 				79872AA521747DE4009D0C02 /* web */,
-				798729E121744044009D0C02 /* DCTabBarController.h */,
-				79872A0D21744044009D0C02 /* DCTabBarController.m */,
-				79872A0821744044009D0C02 /* DCNavigationController.h */,
-				79872A5121744044009D0C02 /* DCNavigationController.m */,
-				79872A0421744044009D0C02 /* DCBaseSetViewController.h */,
-				79872A2521744044009D0C02 /* DCBaseSetViewController.m */,
+				798729E121744044009D0C02 /* TabZJTMBHAHABarController.h */,
+				79872A0D21744044009D0C02 /* TabZJTMBHAHABarController.m */,
+				79872A0821744044009D0C02 /* NaviZJTMBHAHAgationController.h */,
+				79872A5121744044009D0C02 /* NaviZJTMBHAHAgationController.m */,
+				79872A0421744044009D0C02 /* ZJTMBHAHABaseSetViewController.h */,
+				79872A2521744044009D0C02 /* ZJTMBHAHABaseSetViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -427,12 +427,12 @@
 		79872A9D21746BBD009D0C02 /* tab1 */ = {
 			isa = PBXGroup;
 			children = (
-				79872A4C21744044009D0C02 /* ZYTCaimiyuFirstListCtl.h */,
-				79872A2F21744044009D0C02 /* ZYTCaimiyuFirstListCtl.m */,
-				79872A3321744044009D0C02 /* ZYTCaimiyuSecondListCtl.h */,
-				79872A4F21744044009D0C02 /* ZYTCaimiyuSecondListCtl.m */,
-				79872A3821744044009D0C02 /* ZYTCaimiyuDetailViewController.h */,
-				79872A2921744044009D0C02 /* ZYTCaimiyuDetailViewController.m */,
+				79872A4C21744044009D0C02 /* CaiZJTMBHAHAmiyuFirstListCtl.h */,
+				79872A2F21744044009D0C02 /* CaiZJTMBHAHAmiyuFirstListCtl.m */,
+				79872A3321744044009D0C02 /* CaimiyZJTMBHAHAuSecondListCtl.h */,
+				79872A4F21744044009D0C02 /* CaimiyZJTMBHAHAuSecondListCtl.m */,
+				79872A3821744044009D0C02 /* ZJTMBHAHACaimiyuDetailViewController.h */,
+				79872A2921744044009D0C02 /* ZJTMBHAHACaimiyuDetailViewController.m */,
 			);
 			path = tab1;
 			sourceTree = "<group>";
@@ -440,12 +440,12 @@
 		79872A9E21746BC5009D0C02 /* tab2 */ = {
 			isa = PBXGroup;
 			children = (
-				79872A4D21744044009D0C02 /* ZYTBooksHomePageCtl.h */,
-				79872A3521744044009D0C02 /* ZYTBooksHomePageCtl.m */,
-				79872A2B21744044009D0C02 /* BookListTableViewController.m */,
-				79872A3421744044009D0C02 /* BookContentViewController.m */,
-				79872A3621744044009D0C02 /* BookListTableViewController.h */,
-				79872A4E21744044009D0C02 /* BookContentViewController.h */,
+				79872A4D21744044009D0C02 /* ZYTBooksHZJTMBHAHAomePageCtl.h */,
+				79872A3521744044009D0C02 /* ZYTBooksHZJTMBHAHAomePageCtl.m */,
+				79872A2B21744044009D0C02 /* BookListTaZJTMBHAHAbleViewController.m */,
+				79872A3421744044009D0C02 /* BookCoZJTMBHAHAntentViewController.m */,
+				79872A3621744044009D0C02 /* BookListTaZJTMBHAHAbleViewController.h */,
+				79872A4E21744044009D0C02 /* BookCoZJTMBHAHAntentViewController.h */,
 			);
 			path = tab2;
 			sourceTree = "<group>";
@@ -453,12 +453,12 @@
 		79872A9F21746BCB009D0C02 /* tab3 */ = {
 			isa = PBXGroup;
 			children = (
-				79872A2C21744044009D0C02 /* ZYTXueweituFirstCtl.h */,
-				79872A3B21744044009D0C02 /* ZYTXueweituFirstCtl.m */,
-				79872A4921744044009D0C02 /* XueWeiTuListViewController.h */,
-				79872A3221744044009D0C02 /* XueWeiTuListViewController.m */,
-				79872A3121744044009D0C02 /* XueWeiTuDetailViewController.h */,
-				79872A4A21744044009D0C02 /* XueWeiTuDetailViewController.m */,
+				79872A2C21744044009D0C02 /* XueweitZJTMBHAHAuFirstCtl.h */,
+				79872A3B21744044009D0C02 /* XueweitZJTMBHAHAuFirstCtl.m */,
+				79872A4921744044009D0C02 /* XuZJTMBHAHAeWeiTuListViewController.h */,
+				79872A3221744044009D0C02 /* XuZJTMBHAHAeWeiTuListViewController.m */,
+				79872A3121744044009D0C02 /* XueWeiTZJTMBHAHAuDetailViewController.h */,
+				79872A4A21744044009D0C02 /* XueWeiTZJTMBHAHAuDetailViewController.m */,
 			);
 			path = tab3;
 			sourceTree = "<group>";
@@ -466,8 +466,8 @@
 		79872AA021746BD1009D0C02 /* tab4 */ = {
 			isa = PBXGroup;
 			children = (
-				79872A3721744044009D0C02 /* ZYTMineCtl.h */,
-				79872A2A21744044009D0C02 /* ZYTMineCtl.m */,
+				79872A3721744044009D0C02 /* MineZJTMBHAHACtl.h */,
+				79872A2A21744044009D0C02 /* MineZJTMBHAHACtl.m */,
 			);
 			name = tab4;
 			path = "New Group";
@@ -632,59 +632,59 @@
 			buildActionMask = 2147483647;
 			files = (
 				79872A5F21744044009D0C02 /* UIView+Common.m in Sources */,
-				79872A7B21744044009D0C02 /* DCBaseSetViewController.m in Sources */,
-				79872A8121744044009D0C02 /* XueWeiTuListViewController.m in Sources */,
-				79872A8E21744044009D0C02 /* ZYTCaimiyuSecondListCtl.m in Sources */,
+				79872A7B21744044009D0C02 /* ZJTMBHAHABaseSetViewController.m in Sources */,
+				79872A8121744044009D0C02 /* XuZJTMBHAHAeWeiTuListViewController.m in Sources */,
+				79872A8E21744044009D0C02 /* CaimiyZJTMBHAHAuSecondListCtl.m in Sources */,
 				79872A6721744044009D0C02 /* UIImage+Common.m in Sources */,
 				79872AAB21747DE4009D0C02 /* ZYTTestViewController.m in Sources */,
-				79872A7021744044009D0C02 /* DCTabBarController.m in Sources */,
-				79872A6C21744044009D0C02 /* AppUntil.m in Sources */,
-				79872A7321744044009D0C02 /* BookContentModel.m in Sources */,
+				79872A7021744044009D0C02 /* TabZJTMBHAHABarController.m in Sources */,
+				79872A6C21744044009D0C02 /* AppXGQZMODUntil.m in Sources */,
+				79872A7321744044009D0C02 /* BookConteXGQZMODntModel.m in Sources */,
 				79872A5E21744044009D0C02 /* UIView+Frame.m in Sources */,
-				79872A8A21744044009D0C02 /* AnswerCell.m in Sources */,
+				79872A8A21744044009D0C02 /* AnsHWLLOCCwerCell.m in Sources */,
 				79872A6321744044009D0C02 /* UIImage+DCCircle.m in Sources */,
 				79872A6221744044009D0C02 /* UIBarButtonItem+DCBarButtonItem.m in Sources */,
-				79872AA3217479E9009D0C02 /* ControlManager.m in Sources */,
-				79872A7621744044009D0C02 /* BookListModel.m in Sources */,
-				79872A8521744044009D0C02 /* HeadTableViewCell.m in Sources */,
+				79872AA3217479E9009D0C02 /* ContXGQZMODrolManager.m in Sources */,
+				79872A7621744044009D0C02 /* BoXGQZMODokListModel.m in Sources */,
+				79872A8521744044009D0C02 /* HeadTHWLLOCCableViewCell.m in Sources */,
 				79872A6121744044009D0C02 /* UIImageView+DCExtension.m in Sources */,
 				79872AAA21747DE4009D0C02 /* LUCKBottomView.m in Sources */,
-				79872A8821744044009D0C02 /* BookCell.m in Sources */,
+				79872A8821744044009D0C02 /* BoHWLLOCCokCell.m in Sources */,
 				79872A6521744044009D0C02 /* UIColor+DCColorChange.m in Sources */,
-				79872A8021744044009D0C02 /* LeftAndRightLabelCell.m in Sources */,
-				79872A9021744044009D0C02 /* DCNavigationController.m in Sources */,
-				79872A7D21744044009D0C02 /* ZYTMineCtl.m in Sources */,
-				79872A7921744044009D0C02 /* BookBaseModel.m in Sources */,
+				79872A8021744044009D0C02 /* LeftAndHWLLOCCRightLabelCell.m in Sources */,
+				79872A9021744044009D0C02 /* NaviZJTMBHAHAgationController.m in Sources */,
+				79872A7D21744044009D0C02 /* MineZJTMBHAHACtl.m in Sources */,
+				79872A7921744044009D0C02 /* BookXGQZMODBaseModel.m in Sources */,
 				79872A5D21744044009D0C02 /* UILabel+DCLabel.m in Sources */,
-				79872A5A21744044009D0C02 /* ZYTHardbyBookDataManager.m in Sources */,
-				79872A7521744044009D0C02 /* ZYTItemCountModel.m in Sources */,
-				79872A8421744044009D0C02 /* SignInTableViewCell.m in Sources */,
+				79872A5A21744044009D0C02 /* HardbZJTMBHAHAyBookDataManager.m in Sources */,
+				79872A7521744044009D0C02 /* IXGQZMODtemCountModel.m in Sources */,
+				79872A8421744044009D0C02 /* SignInTaHWLLOCCbleViewCell.m in Sources */,
 				79872A6A21744044009D0C02 /* GQGesVCTransition.m in Sources */,
 				79872A5C21744044009D0C02 /* NSObject+DCNull.m in Sources */,
-				79872A7821744044009D0C02 /* AcupointDetailModel.m in Sources */,
+				79872A7821744044009D0C02 /* AcupoZJTMBHAHAintDetailModel.m in Sources */,
 				79872A6421744044009D0C02 /* NSURL+DCHook.m in Sources */,
-				79872A8721744044009D0C02 /* CaiMiYuListCell.m in Sources */,
-				79872A8B21744044009D0C02 /* ZYTAnswerView.m in Sources */,
-				79872A7221744044009D0C02 /* AcupointListModel.m in Sources */,
-				79872A8221744044009D0C02 /* BookContentViewController.m in Sources */,
-				79872A8C21744044009D0C02 /* ZYTAnswerModel.m in Sources */,
+				79872A8721744044009D0C02 /* CaiMHWLLOCCiYuListCell.m in Sources */,
+				79872A8B21744044009D0C02 /* AnswHWLLOCCerView.m in Sources */,
+				79872A7221744044009D0C02 /* AcZJTMBHAHAupointListModel.m in Sources */,
+				79872A8221744044009D0C02 /* BookCoZJTMBHAHAntentViewController.m in Sources */,
+				79872A8C21744044009D0C02 /* AnsHWLLOCCwerModel.m in Sources */,
 				79872A6621744044009D0C02 /* UIColor+expanded.m in Sources */,
 				79872A6D21744044009D0C02 /* ViewController.m in Sources */,
-				79872A5B21744044009D0C02 /* ZYTAcupointDataManager.m in Sources */,
+				79872A5B21744044009D0C02 /* AcupointZJTMBHAHADataManager.m in Sources */,
 				79872A7A21744044009D0C02 /* AppDelegate.m in Sources */,
-				79872A7F21744044009D0C02 /* ZYTCaimiyuFirstListCtl.m in Sources */,
-				79872A8321744044009D0C02 /* ZYTBooksHomePageCtl.m in Sources */,
+				79872A7F21744044009D0C02 /* CaiZJTMBHAHAmiyuFirstListCtl.m in Sources */,
+				79872A8321744044009D0C02 /* ZYTBooksHZJTMBHAHAomePageCtl.m in Sources */,
 				79872A6821744044009D0C02 /* UILabel+Common.m in Sources */,
-				79872A8921744044009D0C02 /* ZYTOptionsAnswer.m in Sources */,
-				79872A7421744044009D0C02 /* BookMuLuModel.m in Sources */,
-				79872A8D21744044009D0C02 /* XueWeiTuDetailViewController.m in Sources */,
-				79872A5921744044009D0C02 /* ZYTDataBaseManage.m in Sources */,
-				79872A7E21744044009D0C02 /* BookListTableViewController.m in Sources */,
-				79872A8621744044009D0C02 /* ZYTXueweituFirstCtl.m in Sources */,
-				79872A7C21744044009D0C02 /* ZYTCaimiyuDetailViewController.m in Sources */,
+				79872A8921744044009D0C02 /* OptHWLLOCCionsAnswer.m in Sources */,
+				79872A7421744044009D0C02 /* BookXGQZMODMuLuModel.m in Sources */,
+				79872A8D21744044009D0C02 /* XueWeiTZJTMBHAHAuDetailViewController.m in Sources */,
+				79872A5921744044009D0C02 /* DatZJTMBHAHAaBaseManage.m in Sources */,
+				79872A7E21744044009D0C02 /* BookListTaZJTMBHAHAbleViewController.m in Sources */,
+				79872A8621744044009D0C02 /* XueweitZJTMBHAHAuFirstCtl.m in Sources */,
+				79872A7C21744044009D0C02 /* ZJTMBHAHACaimiyuDetailViewController.m in Sources */,
 				79872AAE21747E26009D0C02 /* ZYTUserzhengceViewController.m in Sources */,
-				79872A7721744044009D0C02 /* ZYTItemListModel.m in Sources */,
-				79872A6921744044009D0C02 /* ZYTNewBookDataManager.m in Sources */,
+				79872A7721744044009D0C02 /* ItemXGQZMODListModel.m in Sources */,
+				79872A6921744044009D0C02 /* NewBoZJTMBHAHAokDataManager.m in Sources */,
 				79872A7121744044009D0C02 /* main.m in Sources */,
 				79872A6021744044009D0C02 /* UIView+DCExtension.m in Sources */,
 			);

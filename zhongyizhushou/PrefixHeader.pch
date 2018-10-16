@@ -29,20 +29,20 @@
 #import <SVProgressHUD.h>
 #import <ReactiveObjC.h>
 //manager
-#import "ZYTDataBaseManage.h"
-#import "ZYTHardbyBookDataManager.h"
-#import "ZYTNewBookDataManager.h"
+#import "DatZJTMBHAHAaBaseManage.h"
+#import "HardbZJTMBHAHAyBookDataManager.h"
+#import "NewBoZJTMBHAHAokDataManager.h"
 //model
-#import "ZYTAnswerModel.h"
-#import "BookBaseModel.h"
-#import "BookListModel.h"
-#import "BookMuLuModel.h"
-#import "BookContentModel.h"
-#import "ZYTAcupointDataManager.h"
-#import "AcupointListModel.h"
-#import "AcupointDetailModel.h"
-#import "AppUntil.h"
-#import "ControlManager.h"
+#import "AnsHWLLOCCwerModel.h"
+#import "BookXGQZMODBaseModel.h"
+#import "BoXGQZMODokListModel.h"
+#import "BookXGQZMODMuLuModel.h"
+#import "BookConteXGQZMODntModel.h"
+#import "AcupointZJTMBHAHADataManager.h"
+#import "AcZJTMBHAHAupointListModel.h"
+#import "AcupoZJTMBHAHAintDetailModel.h"
+#import "AppXGQZMODUntil.h"
+#import "ContXGQZMODrolManager.h"
 
 #import <AVOSCloud/AVOSCloud.h>
 #import <UMPush/UMessage.h>

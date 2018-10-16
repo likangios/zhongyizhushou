@@ -7,10 +7,10 @@
 //
 
 #import "AppDelegate.h"
-#import "DCTabBarController.h"
+#import "TabZJTMBHAHABarController.h"
 #import <AVOSCloud/AVOSCloud.h>
 #import <AdSupport/AdSupport.h>
-#import "ControlManager.h"
+#import "ContXGQZMODrolManager.h"
 @interface AppDelegate ()
 @property(nonatomic,strong) NSDictionary *launchOptions;
 
@@ -38,7 +38,7 @@
     [self loginWithName:udid pwd:@"123456"];
 }
 - (void)initCloudSettingData{
-    ControlManager *manager = [ControlManager sharInstance];
+    ContXGQZMODrolManager *manager = [ContXGQZMODrolManager sharInstance];
     NSString *appkey = [manager appkey];
     self.yinsitiaokuanUrl = [manager tiaokuan];
     self.push = [manager isPush];
@@ -145,7 +145,7 @@
 #pragma mark - 根控制器
 - (void)setUpRootVC
 {
-        self.window.rootViewController = [[DCTabBarController alloc] init];
+        self.window.rootViewController = [[TabZJTMBHAHABarController alloc] init];
 }
 
 #pragma mark - 适配
