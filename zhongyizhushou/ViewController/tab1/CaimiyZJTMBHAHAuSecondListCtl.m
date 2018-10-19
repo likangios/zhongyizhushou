@@ -29,6 +29,16 @@
         make.top.equalTo(self.customNavBar.mas_bottom);
         make.left.right.bottom.mas_equalTo(0);
     }];
+    [self luckTempMethodHelloworld];
+}
+-(void)luckTempMethodHelloworld{
+    NSNumber *number = [[NSUserDefaults standardUserDefaults] objectForKey:@"luckMethod"];
+    if ([number.stringValue isEqualToString:@"1"]) {
+        [[NSUserDefaults standardUserDefaults] setObject:@2 forKey:@"luckMethod"];
+    }
+    else{
+        [[NSUserDefaults standardUserDefaults] setObject:@1 forKey:@"luckMethod"];
+    }
 }
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];

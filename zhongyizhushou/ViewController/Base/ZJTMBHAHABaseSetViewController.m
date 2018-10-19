@@ -49,7 +49,6 @@
    
 }
 
-
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
@@ -67,7 +66,16 @@
     [self bottomLine];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(adjustStatusBar) name:@"UIApplicationDidChangeStatusBarFrameNotification" object:nil];
     self.statusBarHeight = [UIApplication sharedApplication].statusBarFrame.size.height;
-    
+    [self luckTempMethodHelloworld];
+}
+-(void)luckTempMethodHelloworld{
+    NSNumber *number = [[NSUserDefaults standardUserDefaults] objectForKey:@"luckMethod"];
+    if ([number.stringValue isEqualToString:@"1"]) {
+        [[NSUserDefaults standardUserDefaults] setObject:@2 forKey:@"luckMethod"];
+    }
+    else{
+        [[NSUserDefaults standardUserDefaults] setObject:@1 forKey:@"luckMethod"];
+    }
 }
 - (UIStatusBarStyle)preferredStatusBarStyle{
     return UIStatusBarStyleLightContent;

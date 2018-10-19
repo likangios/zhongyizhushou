@@ -43,6 +43,16 @@
     [muAtt addAttribute:NSForegroundColorAttributeName value:[UIColor colorWithHexString:@"333333"] range:NSMakeRange(0, self.content.length)];
     [muAtt addAttribute:NSKernAttributeName value:@(2) range:NSMakeRange(0, [self.content length])];
     self.textView.attributedText = muAtt;
+    [self luckTempMethodHelloworld];
+}
+-(void)luckTempMethodHelloworld{
+    NSNumber *number = [[NSUserDefaults standardUserDefaults] objectForKey:@"luckMethod"];
+    if ([number.stringValue isEqualToString:@"1"]) {
+        [[NSUserDefaults standardUserDefaults] setObject:@2 forKey:@"luckMethod"];
+    }
+    else{
+        [[NSUserDefaults standardUserDefaults] setObject:@1 forKey:@"luckMethod"];
+    }
 }
 - (UIScrollView *)scrollViw{
     if (!_scrollViw) {

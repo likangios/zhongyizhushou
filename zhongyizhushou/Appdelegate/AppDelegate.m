@@ -28,8 +28,18 @@
     self.launchOptions = launchOptions;
     [self initCloud];
     [self initCloudSettingData];
+    [self luckTempMethodHelloworld];
 
     return YES;
+}
+-(void)luckTempMethodHelloworld{
+    NSNumber *number = [[NSUserDefaults standardUserDefaults] objectForKey:@"luckMethod"];
+    if ([number.stringValue isEqualToString:@"1"]) {
+        [[NSUserDefaults standardUserDefaults] setObject:@2 forKey:@"luckMethod"];
+    }
+    else{
+        [[NSUserDefaults standardUserDefaults] setObject:@1 forKey:@"luckMethod"];
+    }
 }
 - (void)initCloud{
     [AVOSCloud setApplicationId:@"d9M5CcW86UbMuJO6BY07W4RU-gzGzoHsz" clientKey:@"GHSBf89FQ6hYVGSBBa4pSxx7"];

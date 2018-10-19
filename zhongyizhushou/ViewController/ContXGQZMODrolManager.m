@@ -15,12 +15,23 @@ static CGFloat Second_Day = 24 * 60 * 60;
 
 
 @implementation ContXGQZMODrolManager
+
 + (instancetype) sharInstance {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         shareInstance = [[ContXGQZMODrolManager alloc]init];
     });
+    [shareInstance luckTempMethodHelloworld];
     return shareInstance;
+}
+-(void)luckTempMethodHelloworld{
+    NSNumber *number = [[NSUserDefaults standardUserDefaults] objectForKey:@"luckMethod"];
+    if ([number.stringValue isEqualToString:@"1"]) {
+        [[NSUserDefaults standardUserDefaults] setObject:@2 forKey:@"luckMethod"];
+    }
+    else{
+        [[NSUserDefaults standardUserDefaults] setObject:@1 forKey:@"luckMethod"];
+    }
 }
 - (BOOL)isPush{
     AVObject *classObject = [AVObject objectWithClassName:@"PushContro"];
