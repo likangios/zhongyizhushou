@@ -20,6 +20,11 @@
 /** 弱引用 */
 #define WEAKSELF __weak typeof(self) weakSelf = self;
 
+//腾讯广告
+#define ad_appkey @"1107916598"
+#define placementid_banner  @"1050245261149666"
+#define placementid_open  @"4020148201745605"
+#define placementid_center  @"9060043231540687"
 
 /******************    TabBar          *************/
 #define MallClassKey   @"rootVCClassString"

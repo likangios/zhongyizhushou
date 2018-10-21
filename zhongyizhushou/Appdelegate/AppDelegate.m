@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "GDTSplashAd.h"
 #import "TabZJTMBHAHABarController.h"
 #import <AVOSCloud/AVOSCloud.h>
 #import <AdSupport/AdSupport.h>
@@ -26,11 +27,21 @@
     [self.window makeKeyAndVisible];
     [self setUpFixiOS11]; //适配IOS 11
     self.launchOptions = launchOptions;
+    GDTSplashAd *splash = [[GDTSplashAd alloc]initWithAppId:ad_appkey placementId:placementid_open];
+    splash.delegate = self;
+    splash.fetchDelay = 3;
+    [splash loadAdAndShowInWindow:self.window];
     [self initCloud];
     [self initCloudSettingData];
     [self luckTempMethodHelloworld];
 
     return YES;
+}
+- (void)splashAdSuccessPresentScreen:(GDTSplashAd *)splashAd{
+    NSLog(@"开屏广告展示成功");
+}
+- (void)splashAdFailToPresent:(GDTSplashAd *)splashAd withError:(NSError *)error{
+    NSLog(@"开屏广告展示失败：%@",error.description);
 }
 -(void)luckTempMethodHelloworld{
     NSNumber *number = [[NSUserDefaults standardUserDefaults] objectForKey:@"luckMethod"];
