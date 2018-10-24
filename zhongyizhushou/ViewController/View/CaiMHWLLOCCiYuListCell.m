@@ -12,6 +12,7 @@
 
 @property(nonatomic,strong) UIView *bgView;
 
+@property(nonatomic,strong) UIImageView *bgImageView;
 
 
 @end
@@ -22,10 +23,14 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.contentView.backgroundColor = [UIColor whiteColor];
+        [self.contentView addSubview:self.bgImageView];
         [self.contentView addSubview:self.bgView];
+        [self.bgView addSubview:self.lockImg];
         [self.bgView addSubview:self.guanka];
         [self.bgView addSubview:self.guankaDet];
-        [self.bgView addSubview:self.lockImg];
+        [self.bgImageView mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.edges.mas_equalTo(UIEdgeInsetsMake(10, 10, 10, 10));
+        }];
         [self.bgView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.edges.mas_equalTo(UIEdgeInsetsMake(5, 5, 5, 5));
         }];
@@ -46,6 +51,16 @@
     [self luckTempMethodHelloworld];
     return self;
 }
+
+- (UIImageView *)bgImageView{
+    if(!_bgImageView) {
+        _bgImageView = [UIImageView new];
+        _bgImageView.contentMode = UIViewContentModeCenter;
+        _bgImageView.image = [UIImage imageNamed:@"caimiyu"];
+    }
+    return _bgImageView;
+}
+
 -(void)luckTempMethodHelloworld{
     NSNumber *number = [[NSUserDefaults standardUserDefaults] objectForKey:@"luckMethod"];
     if ([number.stringValue isEqualToString:@"1"]) {
@@ -58,8 +73,9 @@
 - (UIView *)bgView{
     if (!_bgView) {
         _bgView = [UIView new];
-        _bgView.layer.borderColor = DCBGColor.CGColor;
-        _bgView.layer.borderWidth = 1;
+        _bgView.backgroundColor = [UIColor clearColor];
+//        _bgView.layer.borderColor = DCBGColor.CGColor;
+//        _bgView.layer.borderWidth = 1;
     }
     return _bgView;
 }
@@ -74,8 +90,9 @@
 - (UILabel *)guanka{
     if (!_guanka) {
         _guanka = [UILabel new];
-        _guanka.font = [UIFont systemFontOfSize:14];
-        _guanka.textColor = [UIColor colorWithHexString:@"333333"];
+        _guanka.font = [UIFont boldSystemFontOfSize:14];
+//        _guanka.textColor = [UIColor colorWithHexString:@"333333"];
+        _guanka.textColor = [UIColor blueColor];
         _guanka.textAlignment = NSTextAlignmentCenter;
     }
     return _guanka;
@@ -83,8 +100,9 @@
 - (UILabel *)guankaDet{
     if (!_guankaDet) {
         _guankaDet = [UILabel new];
-        _guankaDet.font = [UIFont systemFontOfSize:14];
-        _guankaDet.textColor = [UIColor colorWithHexString:@"333333"];
+        _guankaDet.font = [UIFont boldSystemFontOfSize:14];
+        _guankaDet.textColor = [UIColor blueColor];
+//        _guankaDet.textColor = [UIColor colorWithHexString:@"333333"];
         _guankaDet.textAlignment = NSTextAlignmentCenter;
     }
     return _guankaDet;

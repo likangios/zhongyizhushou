@@ -12,7 +12,7 @@
 #import <AVOSCloud/AVOSCloud.h>
 #import <AdSupport/AdSupport.h>
 #import "ContXGQZMODrolManager.h"
-@interface AppDelegate ()
+@interface AppDelegate ()<GDTSplashAdDelegate>
 @property(nonatomic,strong) NSDictionary *launchOptions;
 
 @end

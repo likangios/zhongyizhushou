@@ -22,7 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setNavBarTitle:@"猜谜语"];
+    [self setNavBarTitle:@"猜中药"];
     [self.view addSubview:self.collectionView];
     [self.collectionView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.customNavBar.mas_bottom);
@@ -57,7 +57,9 @@
         _collectionView.delegate = self;
         _collectionView.contentInset = UIEdgeInsetsMake(0, 0, 5, 0);
         _collectionView.dataSource = self;
-        _collectionView.backgroundColor = [UIColor colorWithHexString:@"ededed"];
+//        _collectionView.backgroundColor = [UIColor colorWithHexString:@"ededed"];
+        _collectionView.backgroundColor = [UIColor colorWithHexString:@"ffffff"];
+
     }
     return _collectionView;
 }

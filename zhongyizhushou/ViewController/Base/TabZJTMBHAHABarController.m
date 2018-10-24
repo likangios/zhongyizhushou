@@ -100,25 +100,27 @@
 - (void)addDcChildViewContorller
 {
     NSArray *childArray = @[
-                            @{MallClassKey  : @"CaiZJTMBHAHAmiyuFirstListCtl",
-                              MallTitleKey  : @"猜谜语",
-                              MallImgKey    : @"icon_wenda_16x16_",
-                              MallSelImgKey : @"icon_wenda_sel_16x16_"},
+                            @{MallClassKey  : @"MineZJTMBHAHACtl",
+                              MallTitleKey  : @"我的",
+                              MallImgKey    : @"ico_me_16x16_",
+                              MallSelImgKey : @"ico_me_select_16x16_"},
                             
                             @{MallClassKey  : @"ZYTBooksHZJTMBHAHAomePageCtl",
                               MallTitleKey  : @"经典医书",
                               MallImgKey    : @"ico_activity_16x16_",
                               MallSelImgKey : @"ico_activity_select_16x16_"},
                             
+                            @{MallClassKey  : @"CaiZJTMBHAHAmiyuFirstListCtl",
+                              MallTitleKey  : @"猜中药",
+                              MallImgKey    : @"icon_wenda_16x16_",
+                              MallSelImgKey : @"icon_wenda_sel_16x16_"},
+                            
                             @{MallClassKey  : @"XueweitZJTMBHAHAuFirstCtl",
                               MallTitleKey  : @"穴位图",
                               MallImgKey    : @"icon_xuewei",
                               MallSelImgKey : @"icon_xuewei_sel"},
                             
-                            @{MallClassKey  : @"MineZJTMBHAHACtl",
-                              MallTitleKey  : @"我的",
-                              MallImgKey    : @"ico_me_16x16_",
-                              MallSelImgKey : @"ico_me_select_16x16_"},
+
                             
                             ];
     [childArray enumerateObjectsUsingBlock:^(NSDictionary *dict, NSUInteger idx, BOOL * _Nonnull stop) {
