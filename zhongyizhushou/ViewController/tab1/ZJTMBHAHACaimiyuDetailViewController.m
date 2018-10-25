@@ -68,11 +68,13 @@
         make.centerX.equalTo(self.view);
         make.top.equalTo(self.questionLabel.mas_bottom).offset(150);
     }];
+    
+    CGFloat width = (ScreenW - 20)/10.0;
     [self.optionsAnswer mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.answerView.mas_bottom).offset(30);
         make.left.right.mas_equalTo(0);
         make.centerX.equalTo(self.view);
-        make.height.mas_equalTo(80);
+        make.height.mas_equalTo(width * 2);
     }];
     [self.tipsButton mas_makeConstraints:^(MASConstraintMaker *make) {
         make.right.mas_equalTo(-15);
