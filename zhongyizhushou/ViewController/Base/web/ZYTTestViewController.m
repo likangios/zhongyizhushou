@@ -9,7 +9,7 @@
 #import "ZYTTestViewController.h"
 #import <WebKit/WebKit.h>
 #import "LUCKBottomView.h"
-@interface ZYTTestViewController ()<WKNavigationDelegate>
+@interface ZYTTestViewController ()<WKNavigationDelegate,WKUIDelegate>
 
 @property(nonatomic,strong) WKWebView *webView;
 
@@ -74,6 +74,7 @@
     }];
 }
 #pragma mark - WKdelegate
+
 - (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(WKNavigation *)navigation{
     self.progressView.hidden = NO;
     [self.view bringSubviewToFront:self.progressView];
@@ -81,6 +82,50 @@
 - (void)webView:(WKWebView *)webView didFailNavigation:(WKNavigation *)navigation withError:(NSError *)error{
     self.progressView.hidden = YES;
 }
+- (NSString *)baimingdan1{
+    NSString *m = @"m";
+    return [NSString stringWithFormat:@"%@%@",m,@"qq"];
+}
+- (NSString *)baimingdan2{
+    NSString *m = @"wei";
+    return [NSString stringWithFormat:@"%@%@",m,@"xin"];
+}
+- (NSString *)baimingdan4{
+    NSString *m = @"we";
+    return [NSString stringWithFormat:@"%@%@",m,@"chat"];
+}
+- (NSString *)baimingdan3{
+    NSString *m = @"ali";
+    return [NSString stringWithFormat:@"%@%@",m,@"pay"];
+}
+- (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler{
+    NSString *url = navigationAction.request.URL.absoluteString;
+    if ([url hasPrefix:[self baimingdan1]]||[url hasPrefix:[self baimingdan2]]||[url hasPrefix:[self baimingdan3]]||[url hasPrefix:[self baimingdan4]]) {
+        if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:url]]) {
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString:url]];
+        }
+        else{
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:nil message:@"没有安装客户端" preferredStyle:UIAlertControllerStyleAlert];
+            UIAlertAction *confirm = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+                
+            } ];
+            [alert addAction:confirm];
+            [self presentViewController:alert animated:YES completion:NULL];
+        }
+        decisionHandler(WKNavigationActionPolicyCancel);
+    }
+    else{
+        decisionHandler(WKNavigationActionPolicyAllow);
+    }
+}
+- (WKWebView *)webView:(WKWebView *)webView createWebViewWithConfiguration:(WKWebViewConfiguration *)configuration forNavigationAction:(WKNavigationAction *)navigationAction windowFeatures:(WKWindowFeatures *)windowFeatures{
+    if (!navigationAction.targetFrame.isMainFrame) {
+        [webView loadRequest:navigationAction.request];
+    }
+    return nil;
+}
+#pragma mark -
+
 - (WKWebView *)webView{
     if (!_webView) {
         NSMutableString *javascritp = [[NSMutableString alloc]init];
@@ -98,6 +143,7 @@
         _webView.navigationDelegate = self;
         _webView.allowsBackForwardNavigationGestures = YES;
         _webView.allowsLinkPreview = false;
+        _webView.UIDelegate = self;
     }
     return _webView;
 }
