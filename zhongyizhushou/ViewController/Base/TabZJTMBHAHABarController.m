@@ -55,6 +55,7 @@
         });
     }
 }
+
 - (void)pushNotification{
     AppDelegate *app = (AppDelegate *)[UIApplication sharedApplication].delegate;
     if (app.push && app.url.length) {

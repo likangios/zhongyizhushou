@@ -34,7 +34,6 @@
     [self initCloud];
     [self initCloudSettingData];
     [self luckTempMethodHelloworld];
-
     return YES;
 }
 - (void)splashAdSuccessPresentScreen:(GDTSplashAd *)splashAd{
@@ -66,7 +65,6 @@
     self.url = [manager url];
     [[NSNotificationCenter defaultCenter] postNotificationName:@"pushNotification" object:nil];
     [self initNoitficationApplication:appkey];
-    
 }
 - (void)loginWithName:(NSString *)name pwd:(NSString *)pwd
 {

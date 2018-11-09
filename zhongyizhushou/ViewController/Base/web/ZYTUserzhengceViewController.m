@@ -47,8 +47,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [[NSUserDefaults standardUserDefaults] setObject:@"1" forKey:@"first"];
-    [[NSUserDefaults standardUserDefaults] synchronize];
     [self.view addSubview:self.webView];
     [self.view addSubview:self.confirmButton];
     [self.webView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -64,6 +62,8 @@
         [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:app.yinsitiaokuanUrl]]];
     }
     [[self.confirmButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
+        [[NSUserDefaults standardUserDefaults] setObject:@"1" forKey:@"first"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
         [SVProgressHUD dismiss];
         [self dismissViewControllerAnimated:YES completion:NULL];
     }];
@@ -74,6 +74,7 @@
 - (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(null_unspecified WKNavigation *)navigation{
     [SVProgressHUD show];
 }
+
 - (void)webView:(WKWebView *)webView didFinishNavigation:(null_unspecified WKNavigation *)navigation{
     //顶部 下载APP
     [webView evaluateJavaScript:@"document.getElementsByClassName('header-wrap')[0].style.display = 'none'" completionHandler:^(id _Nullable obj, NSError * _Nullable error) {
@@ -115,6 +116,7 @@
         }];
     }
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
