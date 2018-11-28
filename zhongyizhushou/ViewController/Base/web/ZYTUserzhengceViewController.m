@@ -57,24 +57,18 @@
         make.bottom.mas_equalTo(-40);
         make.size.mas_equalTo(CGSizeMake(200, 40));
     }];
-    AppDelegate *app = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    if (app.yinsitiaokuanUrl.length) {
-        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:app.yinsitiaokuanUrl]]];
-    }
+
+    [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"https://www.jianshu.com/p/95a3ebc217f5"]]];
     [[self.confirmButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(__kindof UIControl * _Nullable x) {
         [[NSUserDefaults standardUserDefaults] setObject:@"1" forKey:@"first"];
         [[NSUserDefaults standardUserDefaults] synchronize];
         [SVProgressHUD dismiss];
         [self dismissViewControllerAnimated:YES completion:NULL];
     }];
-    [[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"pushNotification" object:nil] subscribeNext:^(NSNotification * _Nullable x) {
-        [self.webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:app.yinsitiaokuanUrl]]];
-    }];
 }
 - (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(null_unspecified WKNavigation *)navigation{
     [SVProgressHUD show];
 }
-
 - (void)webView:(WKWebView *)webView didFinishNavigation:(null_unspecified WKNavigation *)navigation{
     //顶部 下载APP
     [webView evaluateJavaScript:@"document.getElementsByClassName('header-wrap')[0].style.display = 'none'" completionHandler:^(id _Nullable obj, NSError * _Nullable error) {
@@ -93,6 +87,10 @@
     }];
     //中部 打开APP阅读
     [webView evaluateJavaScript:@"document.getElementsByClassName('open-app-btn')[0].style.display = 'none'" completionHandler:^(id _Nullable obj, NSError * _Nullable error) {
+        
+    }];
+    //个人信息
+    [webView evaluateJavaScript:@"document.getElementsByClassName('article-info')[0].style.display = 'none'" completionHandler:^(id _Nullable obj, NSError * _Nullable error) {
         
     }];
     [SVProgressHUD dismiss];

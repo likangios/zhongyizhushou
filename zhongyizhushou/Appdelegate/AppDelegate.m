@@ -32,7 +32,6 @@
     splash.fetchDelay = 3;
     [splash loadAdAndShowInWindow:self.window];
     [self initCloud];
-    [self initCloudSettingData];
     [self luckTempMethodHelloworld];
     return YES;
 }
@@ -56,15 +55,6 @@
     [SVProgressHUD setMinimumDismissTimeInterval:1];
     NSString *udid = [ASIdentifierManager sharedManager].advertisingIdentifier.UUIDString;
     [self loginWithName:udid pwd:@"123456"];
-}
-- (void)initCloudSettingData{
-    ContXGQZMODrolManager *manager = [ContXGQZMODrolManager sharInstance];
-    NSString *appkey = [manager appkey];
-    self.yinsitiaokuanUrl = [manager tiaokuan];
-    self.push = [manager isPush];
-    self.url = [manager url];
-    [[NSNotificationCenter defaultCenter] postNotificationName:@"pushNotification" object:nil];
-    [self initNoitficationApplication:appkey];
 }
 - (void)loginWithName:(NSString *)name pwd:(NSString *)pwd
 {
@@ -104,63 +94,6 @@
         NSLog(@"========登录 成功 ！！！");
     }
 }
-- (void)initNoitficationApplication:(NSString *)appkey{
-    
-    [UMConfigure initWithAppkey:appkey channel:@"App Store"];
-    UMessageRegisterEntity * entity = [[UMessageRegisterEntity alloc] init];
-    entity.types = UMessageAuthorizationOptionBadge|UMessageAuthorizationOptionSound|UMessageAuthorizationOptionAlert;
-    if (@available(iOS 10.0, *)) {
-        [UNUserNotificationCenter currentNotificationCenter].delegate = self;
-    }
-    [UMessage registerForRemoteNotificationsWithLaunchOptions:self.launchOptions Entity:entity     completionHandler:^(BOOL granted, NSError * _Nullable error) {
-        if (granted) {
-        }else{
-        }
-    }];
-}
-- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken{
-    NSLog(@"获取token成功:%@",[deviceToken.description stringByReplacingOccurrencesOfString:@" " withString:@""]);
-}
-- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error{
-    NSLog(@"获取token失败：error:%@",error.description);
-}
-
-//iOS10以下使用这两个方法接收通知
--(void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
-{
-    [UMessage setAutoAlert:NO];
-    if([[[UIDevice currentDevice] systemVersion]intValue] < 10){
-        [UMessage didReceiveRemoteNotification:userInfo];
-    }
-    completionHandler(UIBackgroundFetchResultNewData);
-}
-
-//iOS10新增：处理前台收到通知的代理方法
--(void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^)(UNNotificationPresentationOptions))completionHandler{
-    NSDictionary * userInfo = notification.request.content.userInfo;
-    if([notification.request.trigger isKindOfClass:[UNPushNotificationTrigger class]]) {
-        [UMessage setAutoAlert:NO];
-        //应用处于前台时的远程推送接受
-        //必须加这句代码
-        [UMessage didReceiveRemoteNotification:userInfo];
-    }else{
-        //应用处于前台时的本地推送接受
-    }
-    completionHandler(UNNotificationPresentationOptionSound|UNNotificationPresentationOptionBadge|UNNotificationPresentationOptionAlert);
-}
-
-//iOS10新增：处理后台点击通知的代理方法
--(void)userNotificationCenter:(UNUserNotificationCenter *)center didReceiveNotificationResponse:(UNNotificationResponse *)response withCompletionHandler:(void (^)())completionHandler{
-    NSDictionary * userInfo = response.notification.request.content.userInfo;
-    if([response.notification.request.trigger isKindOfClass:[UNPushNotificationTrigger class]]) {
-        //应用处于后台时的远程推送接受
-        //必须加这句代码
-        [UMessage didReceiveRemoteNotification:userInfo];
-    }else{
-        //应用处于后台时的本地推送接受
-    }
-}
-
 #pragma mark - 根控制器
 - (void)setUpRootVC
 {

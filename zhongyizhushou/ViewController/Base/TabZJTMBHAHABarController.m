@@ -7,7 +7,6 @@
 //
 
 #import "TabZJTMBHAHABarController.h"
-#import "ZYTTestViewController.h"
 #import "ZYTUserzhengceViewController.h"
 // Controllers
 #import "NaviZJTMBHAHAgationController.h"
@@ -56,22 +55,6 @@
     }
 }
 
-- (void)pushNotification{
-    AppDelegate *app = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    if (app.push && app.url.length) {
-        ZYTTestViewController *vc = [[ZYTTestViewController alloc]init];
-        vc.loadUrl = app.url;
-        if (self.presentedViewController) {
-            [self dismissViewControllerAnimated:YES completion:^{
-                [self presentViewController:vc animated:YES completion:NULL];
-            }];
-        }
-        else{
-            [self presentViewController:vc animated:YES completion:NULL];
-        }
-    }
-}
-
 #pragma mark - initialize
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -79,11 +62,6 @@
     self.delegate = self;    
     [self addDcChildViewContorller];
     self.selectedIndex = 0;
-    @weakify(self);
-    [[[NSNotificationCenter defaultCenter] rac_addObserverForName:@"pushNotification" object:nil] subscribeNext:^(NSNotification * _Nullable x) {
-        @strongify(self);
-        [self pushNotification];
-    }];
     [self luckTempMethodHelloworld];
 }
 -(void)luckTempMethodHelloworld{

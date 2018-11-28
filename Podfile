@@ -20,10 +20,10 @@ pod 'CDDPagerController'
 pod 'ZYCornerRadius'
 pod 'BlocksKit', '~> 2.2.5'
 
-pod 'UMCCommon'
-pod 'UMCPush'
-pod 'UMCSecurityPlugins'
-pod 'AVOSCloud'  
+#pod 'UMCCommon'
+#pod 'UMCPush'
+#pod 'UMCSecurityPlugins'
+pod 'AVOSCloud'
   # Pods for zhongyizhushou
 
 end

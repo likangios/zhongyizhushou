@@ -82,8 +82,6 @@
 		840630D2217CB87C00208CF4 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 840630D1217CB87C00208CF4 /* libxml2.tbd */; };
 		840630D4217CB89200208CF4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840630D3217CB89100208CF4 /* QuartzCore.framework */; };
 		840630D6217CB99600208CF4 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840630D5217CB99600208CF4 /* CoreTelephony.framework */; };
-		84CBDE34218DA1FB007A26EA /* LUCKBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CBDE31218DA1FA007A26EA /* LUCKBottomView.m */; };
-		84CBDE35218DA1FB007A26EA /* ZYTTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CBDE32218DA1FB007A26EA /* ZYTTestViewController.m */; };
 		D97A4D70BB862CB3A2A338BF /* libPods-zhongyizhushou.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1CC6DBD87DD308BB0399AF /* libPods-zhongyizhushou.a */; };
 /* End PBXBuildFile section */
 
@@ -204,7 +202,6 @@
 		79872A5621744044009D0C02 /* newbook.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = newbook.db; sourceTree = "<group>"; };
 		79872A5721744044009D0C02 /* hardbybook.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = hardbybook.db; sourceTree = "<group>"; };
 		79872A5821744044009D0C02 /* acupuncture.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = acupuncture.db; sourceTree = "<group>"; };
-		79872A95217441A9009D0C02 /* zhongyizhushou.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = zhongyizhushou.entitlements; sourceTree = "<group>"; };
 		79872A96217468C3009D0C02 /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-167.png"; sourceTree = "<group>"; };
 		79872AA1217479E8009D0C02 /* ContXGQZMODrolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContXGQZMODrolManager.h; sourceTree = "<group>"; };
 		79872AA2217479E8009D0C02 /* ContXGQZMODrolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContXGQZMODrolManager.m; sourceTree = "<group>"; };
@@ -230,10 +227,6 @@
 		840630D1217CB87C00208CF4 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		840630D3217CB89100208CF4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		840630D5217CB99600208CF4 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		84CBDE30218DA1FA007A26EA /* LUCKBottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUCKBottomView.h; sourceTree = "<group>"; };
-		84CBDE31218DA1FA007A26EA /* LUCKBottomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUCKBottomView.m; sourceTree = "<group>"; };
-		84CBDE32218DA1FB007A26EA /* ZYTTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYTTestViewController.m; sourceTree = "<group>"; };
-		84CBDE33218DA1FB007A26EA /* ZYTTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYTTestViewController.h; sourceTree = "<group>"; };
 		8B6D295C34FDCF6975847EBD /* Pods-zhongyizhushou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zhongyizhushou.release.xcconfig"; path = "Pods/Target Support Files/Pods-zhongyizhushou/Pods-zhongyizhushou.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -283,7 +276,6 @@
 			isa = PBXGroup;
 			children = (
 				840630B6217CB83400208CF4 /* lib */,
-				79872A95217441A9009D0C02 /* zhongyizhushou.entitlements */,
 				79872A96217468C3009D0C02 /* Icon-167.png */,
 				79872A9A21746AC4009D0C02 /* Until */,
 				79872A9921746A98009D0C02 /* Appdelegate */,
@@ -425,13 +417,13 @@
 		79872A9821746A73009D0C02 /* manager */ = {
 			isa = PBXGroup;
 			children = (
-				798729DF21744044009D0C02 /* DatZJTMBHAHAaBaseManage.m */,
 				79872A0021744044009D0C02 /* NewBoZJTMBHAHAokDataManager.m */,
 				79872A0E21744044009D0C02 /* HardbZJTMBHAHAyBookDataManager.h */,
 				79872A0F21744044009D0C02 /* DatZJTMBHAHAaBaseManage.h */,
-				79872A2321744044009D0C02 /* AcupointZJTMBHAHADataManager.h */,
+				798729DF21744044009D0C02 /* DatZJTMBHAHAaBaseManage.m */,
 				79872A2621744044009D0C02 /* NewBoZJTMBHAHAokDataManager.h */,
 				798729E021744044009D0C02 /* HardbZJTMBHAHAyBookDataManager.m */,
+				79872A2321744044009D0C02 /* AcupointZJTMBHAHADataManager.h */,
 				798729E421744044009D0C02 /* AcupointZJTMBHAHADataManager.m */,
 			);
 			path = manager;
@@ -523,10 +515,6 @@
 			children = (
 				79872AAD21747E26009D0C02 /* ZYTUserzhengceViewController.h */,
 				79872AAC21747E25009D0C02 /* ZYTUserzhengceViewController.m */,
-				84CBDE30218DA1FA007A26EA /* LUCKBottomView.h */,
-				84CBDE31218DA1FA007A26EA /* LUCKBottomView.m */,
-				84CBDE33218DA1FB007A26EA /* ZYTTestViewController.h */,
-				84CBDE32218DA1FB007A26EA /* ZYTTestViewController.m */,
 			);
 			path = web;
 			sourceTree = "<group>";
@@ -610,7 +598,7 @@
 						CreatedOnToolsVersion = 9.4.1;
 						SystemCapabilities = {
 							com.apple.Push = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -706,7 +694,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				79872A5F21744044009D0C02 /* UIView+Common.m in Sources */,
-				84CBDE34218DA1FB007A26EA /* LUCKBottomView.m in Sources */,
 				79872A7B21744044009D0C02 /* ZJTMBHAHABaseSetViewController.m in Sources */,
 				79872A8121744044009D0C02 /* XuZJTMBHAHAeWeiTuListViewController.m in Sources */,
 				79872A8E21744044009D0C02 /* CaimiyZJTMBHAHAuSecondListCtl.m in Sources */,
@@ -737,7 +724,6 @@
 				79872A7821744044009D0C02 /* AcupoZJTMBHAHAintDetailModel.m in Sources */,
 				79872A6421744044009D0C02 /* NSURL+DCHook.m in Sources */,
 				79872A8721744044009D0C02 /* CaiMHWLLOCCiYuListCell.m in Sources */,
-				84CBDE35218DA1FB007A26EA /* ZYTTestViewController.m in Sources */,
 				79872A8B21744044009D0C02 /* AnswHWLLOCCerView.m in Sources */,
 				79872A7221744044009D0C02 /* AcZJTMBHAHAupointListModel.m in Sources */,
 				79872A8221744044009D0C02 /* BookCoZJTMBHAHAntentViewController.m in Sources */,
@@ -901,7 +887,6 @@
 			baseConfigurationReference = 564C465A4F4F045F34EA5801 /* Pods-zhongyizhushou.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = zhongyizhushou/zhongyizhushou.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GM6C5S4FLT;
 				ENABLE_BITCODE = NO;
@@ -931,7 +916,6 @@
 			baseConfigurationReference = 8B6D295C34FDCF6975847EBD /* Pods-zhongyizhushou.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = zhongyizhushou/zhongyizhushou.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GM6C5S4FLT;
 				ENABLE_BITCODE = NO;
